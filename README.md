@@ -2,8 +2,9 @@
 Notes Taken for HTB Machine
 
 # Tools
-wr3nch.py
-      A tool that integrates nmap, gobuster and fuzz for Directory enumeration and vhosts enumeration
+```wr3nch.py```
+      A tool that integrates nmap, gobuster and ffuf for Directory enumeration and vhosts enumeration with dirbuster's medium.txt
+      Make sure you have them all
       Soon many updates are yet to come
       Written by a coding n00b
       Change the number of threads according to your liking
