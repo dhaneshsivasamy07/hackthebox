@@ -8,7 +8,7 @@ Notes Taken for HTB Machine
       Soon many updates are yet to come
       Written by a coding n00b
       Change the number of threads according to your liking
-      
+      Not a regular subdomain bruteforcer created just for hackthebox, yet to be improved
       
       
 # Thanks for visiting
