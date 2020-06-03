@@ -1,0 +1,4 @@
+- [ ] enumerate the dirs
+- [ ] look for fishy directories (dev/, backup/, etc..,)
+- [ ] if ```uploads``` directory is present make a note of it
+- [ ] when open shell is found with code execution and redirection ```2>&1``` in the sorce code upload a reverse shell in the uploads dir
