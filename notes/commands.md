@@ -22,8 +22,9 @@
 #### SQL Injection<br />
 - [ ] *sqlmap -r <request-file> --level=5 --risk=3 --batch*<br />
   
-  
-  
+#### Cracking ZIP<br />
+- [ ] *zip2john \<zipfile\> \> zipfile.hash*<br />
+- [ ] *john  --format=zip zipfile.hash --wordlist=/usr/share/wordlists/rockyou.txt*
   
 #### References<br />
   - ##### File Upload Via *[CURL](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76)*<br />
