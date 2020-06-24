@@ -1,0 +1,2 @@
+- [Bludit Code Execution](https://github.com/bludit/bludit/issues/1081)
+- [Tomcat Exploitation](https://www.hackingarticles.in/multiple-ways-to-exploit-tomcat-manager/)
