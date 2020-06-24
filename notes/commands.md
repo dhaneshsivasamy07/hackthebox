@@ -20,11 +20,11 @@
 - [ ] *curl --user "{user}:{creds}" --upload-file=<file> "http://machineIP/upload_location"*<br />
   
 #### SQL Injection<br />
-- [ ] *sqlmap -r <request-file> --level=5 --risk=3 --batch<br />
+- [ ] *sqlmap -r <request-file> --level=5 --risk=3 --batch*<br />
   
   
   
   
 #### References<br />
-  - ###### File Upload Via [CURL](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76)<br />
-  - ###### File Upload Via [CURL & WGET](https://www.ostechnix.com/easy-fast-way-share-files-internet-command-line/)<br />
+  - ##### File Upload Via *[CURL](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76)*<br />
+  - ##### File Upload Via *[CURL & WGET](https://www.ostechnix.com/easy-fast-way-share-files-internet-command-line/)*<br />
