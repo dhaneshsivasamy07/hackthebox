@@ -8,3 +8,5 @@
         3. Look for Cron Jobs <br />
 - [ ] always look for the users in the ```/home``` dirs, the passwords that found during the enumeartion phase will be the same password for the user as well
 - [ ] ```sudo -l``` should be checked must
+- [ ] Make a note of all password yoiu come accross the way to the shell and try ```su - <user>``` and try each passwords
+- [ ] Keep an eye on the ```groups``` that the user belongs to
