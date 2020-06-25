@@ -25,6 +25,11 @@
 #### Cracking ZIP<br />
 - [ ] *zip2john \<zipfile\> \> zipfile.hash*<br />
 - [ ] *john  --format=zip zipfile.hash --wordlist=/usr/share/wordlists/rockyou.txt*
+
+#### Making request with cURL:<br />
+- [ ] *curl -vvv http[s]://machineIP:{port}*
+- [ ] *curl --http2 http[s]://machineIP:{port}*
+- [ ] *curl --http3 http[s]://machineIP:{port}*
   
 #### References<br />
   - ##### File Upload Via *[CURL](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76)*<br />
