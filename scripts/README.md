@@ -4,4 +4,5 @@
 - Nvm if it isnt attaractive !!
 
 ### Files
-- <b>name_grab.py</b> - Grabs the file names in the git repo, created for traceback machine
+- <b>bashrc_custom</b> - Copy the files content and into `~/.bashrc` file and source it. Enjoy 😉. <br />
+- <b>name_grab.py</b> - Grabs the file names in the git repo, created for traceback machine. <br />
