@@ -12,12 +12,13 @@ These are the urls that has the writeups for active and retired machines
 - [p0i5on8](https://p0i5on8.github.io/)
 - [Secwalk](https://www.secwalk.com/)
 - [lUc1f3r11's Blog](https://fdlucifer.github.io/)
+- [subham399](https://shubhkumar.in/tags/hackthebox/)
 - [Jacob Riggs](https://jacobriggs.io/blog/)
 - [elbee infoSec](https://elbee.xyz/writeups)
       
 
 # Thanks for contributing towards learning:
-@nav1n | @0xPrashanth | @p0i5on7 | @fdlucifer | @cyberwr3nch - The Owners of the mentioned site above
+@nav1n | @0xPrashanth | @p0i5on7 | @fdlucifer | @cyberwr3nch | @Shubham - The Owners of the mentioned site above
 
 # Thanks for visiting
 A noob _cyberwr3nch🔧_ 
