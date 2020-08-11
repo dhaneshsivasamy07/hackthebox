@@ -9,12 +9,16 @@ These are the urls that has the writeups for active and retired machines
 - [My Blog](https://cyberwr3nch.github.io)
 - [nav1n](http://www.nav1n.com/)
 - [0xPrashanth](https://0xprashant.github.io/)
+- [BinaryBiceps](https://binarybiceps.com/)
 - [p0i5on8](https://p0i5on8.github.io/)
 - [Secwalk](https://www.secwalk.com/)
 - [lUc1f3r11's Blog](https://fdlucifer.github.io/)
 - [subham399](https://shubhkumar.in/tags/hackthebox/)
 - [Jacob Riggs](https://jacobriggs.io/blog/)
-- [elbee infoSec](https://elbee.xyz/writeups)
+- [elbee infoSec](https://elbee.xyz/writeups)\
+- [Kali-education](https://kali-education.info/)
+- [roman.de](https://romanh.de/home)
+
       
 
 # Thanks for contributing towards learning:
