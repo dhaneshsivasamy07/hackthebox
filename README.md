@@ -18,7 +18,8 @@ These are the urls that has the writeups for active and retired machines
 - [elbee infoSec](https://elbee.xyz/writeups)\
 - [Kali-education](https://kali-education.info/)
 - [roman.de](https://romanh.de/home)
-
+- [0xdf's Blog](https://0xdf.gitlab.io/) {retired machines
+- 
       
 
 # Thanks for contributing towards learning:
