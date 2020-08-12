@@ -15,11 +15,11 @@ These are the urls that has the writeups for active and retired machines
 - [lUc1f3r11's Blog](https://fdlucifer.github.io/)
 - [subham399](https://shubhkumar.in/tags/hackthebox/)
 - [Jacob Riggs](https://jacobriggs.io/blog/)
-- [elbee infoSec](https://elbee.xyz/writeups)\
+- [elbee infoSec](https://elbee.xyz/writeups)
 - [Kali-education](https://kali-education.info/)
 - [roman.de](https://romanh.de/home)
 - [0xdf's Blog](https://0xdf.gitlab.io/) {retired machines
-- 
+- [xct's Blog](https://vulndev.io/) :star:
       
 
 # Thanks for contributing towards learning:
