@@ -10,3 +10,19 @@
 - [ ] ```sudo -l``` should be checked must
 - [ ] Make a note of all password yoiu come accross the way to the shell and try ```su - <user>``` and try each passwords
 - [ ] Keep an eye on the ```groups``` that the user belongs to
+- [ ] After gaining the shell look for `network activity` of the machine
+- [ ] While running the enumeration scripts, look for the network activities
+
+
+##### Commands:
+
+###### Network monitoring:
+
+```bash
+#network modules info and IPs
+ifconfig
+ipaddr
+#shows the tcp connection
+netstat -antp     
+ss -antp          
+```
