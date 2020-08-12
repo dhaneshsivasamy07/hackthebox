@@ -14,15 +14,3 @@
 - [ ] While running the enumeration scripts, look for the network activities
 
 
-##### Commands:
-
-###### Network monitoring:
-
-```bash
-#network modules info and IPs
-ifconfig
-ipaddr
-#shows the tcp connection
-netstat -antp     
-ss -antp          
-```
