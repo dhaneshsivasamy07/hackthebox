@@ -20,7 +20,7 @@ These are the urls that has the writeups for active and retired machines
 - [roman.de](https://romanh.de/home)
 - [0xdf's Blog](https://0xdf.gitlab.io/) {retired machines
 - [xct's Blog](https://vulndev.io/) :star:
-      
+- [0xrick's Blog](https://0xrick.github.io/){retired machines
 
 # Thanks for contributing towards learning:
 @nav1n | @0xPrashanth | @p0i5on7 | @fdlucifer | @cyberwr3nch | @Shubham - The Owners of the mentioned site above
