@@ -41,4 +41,4 @@ OSCP like machine will be covered with a full writeup in the blog https://cyberw
 
 ##### Covered Boxes:
 
-- [x] Bank
+- [x] Bank ➡️  #dns #mysql #passwd
