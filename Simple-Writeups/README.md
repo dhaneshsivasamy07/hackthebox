@@ -7,7 +7,7 @@ OSCP like machine will be covered with a full writeup in the blog https://cyberw
 ##### OSCP Like Boxes:
 ###### Linux
 
-- [ ] Lame
+- [x] Lame
 - [ ] BrainFuck
 - [ ] Shocker
 - [ ] Bashed
