@@ -10,6 +10,10 @@ required modules
 2. imgkit - pip3 install imgkit
 3. coloroma - pip install colorama
 
+ISSUE:
+If you face error like: `requests.exceptions.SSLError: HTTPSConnectionPool`
+please add `,verify= False)` in line 44
+
 ###############################################################################################
 '''
 
