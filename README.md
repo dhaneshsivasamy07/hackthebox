@@ -1,6 +1,11 @@
 # hackthebox
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Notes Taken for HTB Machine<br />
 Will be periodiclly updated, created with the intend of unwraping all possible ways and to prep for exams<br />
+
+created & maintained by: **cyberwr3nch**
+
 #### SAY NO TO MSF !
 
 # Writeup Links:
