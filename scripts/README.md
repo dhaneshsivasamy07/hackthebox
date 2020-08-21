@@ -9,3 +9,7 @@
 - <b>name_grab.py</b> - Grabs the file names in the git repo, created for traceback machine. <br />
 - <b>snapwr3nch.py</b> - Grabs your achievement and gives it <br />
 
+### Demo
+
+#### snapwr3nch.py
+![snapshot](https://github.com/cyberwr3nch/hackthebox/blob/master/scripts/files/traceback.jpg)
