@@ -27,7 +27,7 @@ These are the urls that has the writeups for active and retired machines
 
 # Tools:
 - [wr3nch.py](https://github.com/cyberwr3nch/hackthebox/blob/master/wr3nch.py) - A python tool which automates the initial process of bash
-- [achievement.py](https://github.com/cyberwr3nch/hackthebox/blob/master/achivement.py) - Tool that grabs and gives the info of the boxes you have pwned
+- [snapwr3nch.py](https://github.com/cyberwr3nch/hackthebox/blob/master/snapwr3nch.py) - Tool that grabs and gives the info of the boxes you have pwned
 
 # Thanks for visiting
 A noob _cyberwr3nch🔧_ 
