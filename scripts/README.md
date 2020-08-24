@@ -8,6 +8,7 @@
 - <b>bashrc_custom</b> - Copy the files content and into `~/.bashrc` file and source it. Enjoy 😉. Best with tmux ! <br />
 - <b>name_grab.py</b> - Grabs the file names in the git repo, created for traceback machine. <br />
 - <b>snapwr3nch.py</b> - Grabs your achievement and gives it <br />
+- <b>adapter.sh</b> - When used with `.p10k.zsh` example function , if the vpn is available, it will show in the right side<br />
 
 ### Demo
 
