@@ -1,6 +1,7 @@
 ### CMS Exploits
 - [Bludit Code Execution](https://github.com/bludit/bludit/issues/1081)
 - [Tomcat Exploitation](https://www.hackingarticles.in/multiple-ways-to-exploit-tomcat-manager/)
+- [Litecart Exploitation](https://www.exploit-db.com/exploits/45267)
 
 ### Useful Things
 - File Upload Via *[CURL](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76)*<br />
