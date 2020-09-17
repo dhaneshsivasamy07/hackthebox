@@ -2,6 +2,7 @@
 - [Bludit Code Execution](https://github.com/bludit/bludit/issues/1081)
 - [Tomcat Exploitation](https://www.hackingarticles.in/multiple-ways-to-exploit-tomcat-manager/)
 - [Litecart Exploitation](https://www.exploit-db.com/exploits/45267)
+- [GYM management System](https://www.exploit-db.com/exploits/48506)
 
 ### Useful Things
 - File Upload Via *[CURL](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76)*<br />
@@ -12,3 +13,5 @@
 	```python
 		curl https://bootstrap.pypi.io/get-pip.py -o get-pip.py; python get-pip.py
 	```
+- Windows 10 IoT [exploit](https://www.zdnet.com/article/new-exploit-lets-attackers-take-control-of-windows-iot-core-devices/) and its [PoC](https://github.com/SafeBreach-Labs/SirepRAT)
+- Apache Tomcat Verison 7.x [RCE](https://www.redtimmy.com/apache-tomcat-rce-by-deserialization-cve-2020-9484-write-up-and-exploit/) and its [PoC](https://github.com/masahiro331/CVE-2020-9484)
