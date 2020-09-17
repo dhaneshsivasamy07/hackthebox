@@ -6,6 +6,31 @@ Will be periodiclly updated, created with the intend of unwraping all possible w
 
 created & maintained by: **cyberwr3nch**
 
+# Contents
+
+### Commands
+
+- [Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Commands.md) - has the commands to be carried out from starting the pentest to completing it
+- [File Transfer](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/File%20Transfer.md) - Commnads need to transfer files
+- [Port Poking](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Port-Poking.md) - Pentesting notes on each ports
+- [Reverse Shells](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Reverse-shells.md) - Reverse shell 
+- [Windows](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Windows.md) - Commands and things required to pentest windows machines
+
+### Notes:
+
+This section has important notes and commands to be carried out while testing a box
+
+- [checklist](https://github.com/cyberwr3nch/hackthebox/tree/master/notes/checklist) - Checklist to pentest a box
+- [commands](https://github.com/cyberwr3nch/hackthebox/tree/master/notes/commands) - Commands to be used while pentesing a box
+- [resources](https://github.com/cyberwr3nch/hackthebox/tree/master/notes/resources.md) - CMS Exlpoits, Manual methods of doing a box, misc will be in here
+
+### Tools
+- LinEnum; linPEAS; winPEAS; winBAT
+- Static Binaries ( plink, nc, whoami, etc..,)
+- Socat, Chisel
+- Exiftool
+- php reverse shell
+
 #### SAY NO TO MSF !
 
 # Active Machines WriteUps
