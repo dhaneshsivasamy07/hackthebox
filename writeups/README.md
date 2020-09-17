@@ -42,3 +42,4 @@ OSCP like machine will be covered with a full writeup in the blog https://cyberw
 ##### Covered Boxes:
 
 - [x] Bank ➡️  #dns #mysql #passwd
+- [x] Magic ➡️ #magicbytes #suid #sql #path_hijack
