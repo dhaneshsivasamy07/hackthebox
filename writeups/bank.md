@@ -1,5 +1,5 @@
 #### Enumeration
-- Open Ports port `port 22, 53,80`
+- Open Ports `port 22, 53,80`
 - No information gathered from the DNS Server
 - Virtual host is guessed `bank.htb` and added to the `/etc/hosts`
 - `balance-transfer` directory enumerated
