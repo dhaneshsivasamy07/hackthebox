@@ -6,10 +6,21 @@
 
 
 ### CVE's And PoC's
+
+#### Windows
 - Windows 10 IoT [exploit](https://www.zdnet.com/article/new-exploit-lets-attackers-take-control-of-windows-iot-core-devices/) and its [PoC](https://github.com/SafeBreach-Labs/SirepRAT)
+
+#### Apache Tomcat
 - Apache Tomcat Verison 7.x [RCE](https://www.redtimmy.com/apache-tomcat-rce-by-deserialization-cve-2020-9484-write-up-and-exploit/) and its [PoC](https://github.com/masahiro331/CVE-2020-9484)
+
+#### PrivEsc Articles
 - PrivEsc when [USBCreator](https://unit42.paloaltonetworks.com/usbcreator-d-bus-privilege-escalation-in-ubuntu-desktop/) is provided with SUID and running with the root privileges
 - Compromising system with [mysql](https://recipeforroot.com/mysql-to-system-root/)
+
+#### Docker Security
+- What happens if [docker.sock](https://dejandayoff.com/the-danger-of-exposing-docker.sock/) is explosed.
+- Multiple Docker Security [articles](https://securityboulevard.com/2019/02/abusing-docker-api-socket/)
+- LXD privEsc, happens when the user belongs to the [lxd](https://www.hackingarticles.in/lxd-privilege-escalation/) group.
 
 ### Useful Things
 - File Upload Via *[CURL](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76)*<br />
