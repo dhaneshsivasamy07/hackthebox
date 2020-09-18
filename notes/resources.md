@@ -4,6 +4,13 @@
 - [Litecart Exploitation](https://www.exploit-db.com/exploits/45267)
 - [GYM management System](https://www.exploit-db.com/exploits/48506)
 
+
+### CVE's And PoC's
+- Windows 10 IoT [exploit](https://www.zdnet.com/article/new-exploit-lets-attackers-take-control-of-windows-iot-core-devices/) and its [PoC](https://github.com/SafeBreach-Labs/SirepRAT)
+- Apache Tomcat Verison 7.x [RCE](https://www.redtimmy.com/apache-tomcat-rce-by-deserialization-cve-2020-9484-write-up-and-exploit/) and its [PoC](https://github.com/masahiro331/CVE-2020-9484)
+- PrivEsc when [USBCreator](https://unit42.paloaltonetworks.com/usbcreator-d-bus-privilege-escalation-in-ubuntu-desktop/) is provided with SUID and running with the root privileges
+- Compromising system with [mysql](https://recipeforroot.com/mysql-to-system-root/)
+
 ### Useful Things
 - File Upload Via *[CURL](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76)*<br />
 - File Upload Via *[CURL & WGET](https://www.ostechnix.com/easy-fast-way-share-files-internet-command-line/)*<br />
@@ -13,5 +20,3 @@
 	```python
 		curl https://bootstrap.pypi.io/get-pip.py -o get-pip.py; python get-pip.py
 	```
-- Windows 10 IoT [exploit](https://www.zdnet.com/article/new-exploit-lets-attackers-take-control-of-windows-iot-core-devices/) and its [PoC](https://github.com/SafeBreach-Labs/SirepRAT)
-- Apache Tomcat Verison 7.x [RCE](https://www.redtimmy.com/apache-tomcat-rce-by-deserialization-cve-2020-9484-write-up-and-exploit/) and its [PoC](https://github.com/masahiro331/CVE-2020-9484)
