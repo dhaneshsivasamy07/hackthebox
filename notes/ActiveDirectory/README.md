@@ -4,7 +4,7 @@ This is an notes collected from everywhere.... literally everywhere..... blogs, 
 For an easy understanding I have splitted the points and spoke like thinking for understanding, if you feel its not necesarry just look at the defenition on top below the question
 
 # TableOfContents:
-- [ActiveDirectory](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/ActiveDirectory/README.md#
+- [ActiveDirectory](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/ActiveDirectory/README.md#what-is-an-active-directory-)
 
 ### What is an Active Directory ?
 
