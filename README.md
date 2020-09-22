@@ -67,7 +67,8 @@ These are the urls that has the writeups for active and retired machines
 - [xct's Blog](https://vulndev.io/) :star:
 - [0xrick's Blog](https://0xrick.github.io/){retired machines
 
-
+#### nvm this
+Constantly updating from *MAY 3<sup>rd</sup> 2020*
 
 # Tools:
 - [wr3nch.py](https://github.com/cyberwr3nch/hackthebox/blob/master/wr3nch.py) - A python tool which automates the initial process of bash
