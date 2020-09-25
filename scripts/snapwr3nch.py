@@ -8,6 +8,7 @@
 required modules
 1. requests - pip3 install requests
 2. imgkit - pip3 install imgkit
+wkhtmltopdf to be used by imgkit - sudo apt-get install wkhtmltopdf
 3. coloroma - pip install colorama
 
 ISSUE:
