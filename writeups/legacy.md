@@ -1,6 +1,6 @@
 #### Enumeration
 
-- Open ports 139, 445
+- Open ports `139, 445`
 - Enumerated nmap results shows the OS: Windows XP
 - Windows XP vulnerable to `CVE-2008-4250`
 
