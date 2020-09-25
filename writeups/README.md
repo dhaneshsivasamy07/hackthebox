@@ -1,13 +1,19 @@
-- [x] 1 : Lame : 10.10.10.3 : Linux - Medium <br>
+- [x] 1 : Lame : 10.10.10.3 : Linux - Easy <br>
 SMB Enumeration, FTP Anonymous Login
 ***
 
-- [x] 2 : Legacy : 10.10.10.4 : Windows - Medium  <br>
+- [x] 2 : Legacy : 10.10.10.4 : Windows - Easy  <br>
 CVE ms08_067_netapi
 ***
 
-- [ ] 3 : Devel : 10.10.10.5 : Windows - Medium 
-- [ ] 4 : Popcorn : 10.10.10.6 : Linux - Hard 
+- [x] 3 : Devel : 10.10.10.5 : Windows - Easy <br>
+CVE ms10_015_kitrap0d, local_exploit_suggester msf
+***
+
+- [x] 4 : Popcorn : 10.10.10.6 : Linux - Medium <br>
+File Upload, CVE-2010-0832, MOTD Tamper, DirtyCow Exploit
+***
+
 - [ ] 5 : Beep : 10.10.10.7 : Linux - Medium 
 - [ ] 6 : Optimum : 10.10.10.8 : Windows - Medium 
 - [ ] 7 : Bastard : 10.10.10.9 : Windows - Hard 
