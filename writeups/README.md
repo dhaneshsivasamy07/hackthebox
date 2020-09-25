@@ -165,7 +165,7 @@ DNS Lookup, Recon, ZoneTransfer, /etc/passwd password tampering
 - [ ] 239 : ForwardSlash : 10.10.10.183 : Linux - Insane 
 - [ ] 240 : ServMon : 10.10.10.184 : Windows - Medium 
 
--[x] 241 : Magic : 10.10.10.185 : Linux - Medium <br> 
+- [x] 241 : Magic : 10.10.10.185 : Linux - Medium <br> 
 SQL Injection, Socat, MySQL, SUID Find, Path Exploitation
 ***
 
