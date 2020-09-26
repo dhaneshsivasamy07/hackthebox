@@ -1,25 +1,44 @@
-#### Enumeration
-- Open Ports `xx,xx`
-- { Points }
+![](assets/images/banner.png)
 
 
-#### Obtaining Shell
-##### Option 1
 
-- { Points }
+<img src="assets/images/htb.png" style="margin-left: 20px; zoom: 60%;" align=left />    	<font size="10">Challenge Name</font>
 
-##### Option 2 
+​		DD<sup>th</sup> Month YYYY
 
-- { Points }
+​		Challenge Author(s): 
 
-#### PrivEsc
+​		
 
-- { Points }
+ 
 
-#### Commands:
 
-**topic**
-```bash
-# commands
+
+### Description:
+
+This challenge...
+
+### Objective
+
+Find a logic bug through source code auditing.
+
+### Difficulty:
+
+`easy`
+
+### Flag:
+
+`HTB{s0me_fl4g_her3}`
+
+
+
+# Challenge
+
+
+
+# Solver
+
+```python
+
 ```
 
