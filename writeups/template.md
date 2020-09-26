@@ -1,8 +1,8 @@
 ![](assets/banner.png)
 
 
-<p align="centre">
-<img src="assets/htb.png" style="margin-left: 20px; zoom: 60%;" align=left />
+<p align="center">
+  <img src="assets/htb.png" alt='HTB_logo'>
 </p>
 
 
