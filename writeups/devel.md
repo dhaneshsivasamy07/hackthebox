@@ -1,3 +1,24 @@
+![](assets/banner.png)
+
+
+<p align="center">
+  <img src="assets/htb.png" alt='HTB_logo'>
+</p>
+
+
+### Description:
+
+- With FTP port open and Anonymous login enabled
+- The system is compromised with the `malicious.aspx` file
+- With the `kitrap0d` module, Administrative shell is obtained
+
+
+
+### Difficulty:
+
+`Windows- Easy`
+
+
 #### Enumeration
 - Open ports `80,21`
 - FTP with `anonymous login` 
@@ -11,7 +32,7 @@
 - Running a listener in the msfconsole and requesting webpage with malicious site, reverse shell is obtained
 - A low level user with minimum access is obtained
 
-#### PrivEsc
+#### Privilege Escalation
 
 - With the help of `ms10_015_kitrap0d` module the machine is rooted
 
