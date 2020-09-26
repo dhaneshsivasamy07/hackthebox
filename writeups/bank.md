@@ -1,3 +1,23 @@
+![](assets/banner.png)
+
+
+<p align="center">
+  <img src="assets/htb.png" alt='HTB_logo'>
+</p>
+
+
+### Description:
+
+- Pentesting the box shows that the dns ssh and http ports are open 
+- Pentesting the ports revealed nothing, with virutal roust hosting we got a bunch of files to dig in
+- Due to improper cryptographic fucntions credits for the web app is revealed
+- LFI is used to obtain the initial shell and SUID binary is used for privilege escalation
+
+### Difficulty:
+
+`Linux - Easy`
+
+
 #### Enumeration
 - Open Ports `port 22, 53,80`
 - No information gathered from the DNS Server

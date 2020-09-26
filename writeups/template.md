@@ -14,23 +14,28 @@ This machine...
 
 `easy`
 
-### Flags:
 
-User: `<md5>`
+#### Enumeration
 
-Root: `<md5>`
-
-# Enumeration
+- Open ports `xx`
 
 
+#### Obtaining Shell
+##### Method 1
 
-# Foothold
+- Points 
+
+##### Method 2
+
+- Points
 
 
+#### Privilege Escalation
 
-# Lateral Movement
+- Points
 
+#### Commands:
 
-
-# Privilege Escalation
-
+```bash
+# command and brief
+```
