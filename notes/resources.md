@@ -16,6 +16,7 @@
 #### PrivEsc Articles
 - PrivEsc when [USBCreator](https://unit42.paloaltonetworks.com/usbcreator-d-bus-privilege-escalation-in-ubuntu-desktop/) is provided with SUID and running with the root privileges
 - Compromising system with [mysql](https://recipeforroot.com/mysql-to-system-root/)
+- PrivEsc via Splunk [detailed-article](https://medium.com/@airman604/splunk-universal-forwarder-hijacking-5899c3e0e6b2) and [discussion](https://www.securityfocus.com/bid/101664/discuss) what will be happening if the exploit is leveraged
 
 #### Docker Security
 - What happens if [docker.sock](https://dejandayoff.com/the-danger-of-exposing-docker.sock/) is explosed.
