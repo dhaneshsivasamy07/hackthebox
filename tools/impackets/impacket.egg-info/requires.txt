@@ -1,0 +1,9 @@
+flask>=1.0
+ldap3!=2.5.0,!=2.5.2,!=2.6,>=2.5
+ldapdomaindump>=0.9.0
+pyOpenSSL>=0.13.1
+pyasn1>=0.2.3
+pycryptodomex
+six
+
+[pyreadline:sys_platform=="win32"]

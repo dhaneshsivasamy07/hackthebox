@@ -1,6 +1,5 @@
 # hackthebox 
 ### All you need <3
-testing
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Notes Taken for HTB Machine<br />
