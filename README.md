@@ -80,6 +80,7 @@ Constantly updating from *MAY 3<sup>rd</sup> 2020*
 # Thanks for visiting
 A noob _cyberwr3nch🔧_ 
 A member of **TCSC** 
+Learn and Spread <3 
 ``` xoxo💙```
 
 
