@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: bloodhound
+Version: 1.0.4
+Summary: Python based ingestor for BloodHound
+Home-page: https://github.com/fox-it/bloodhound.py
+Author: Dirk-jan Mollema, Edwin van Vliet, Matthijs Gielen
+Author-email: dirkjan.mollema@fox-it.com, edwin.vanvliet@fox-it.com, matthijs.gielen@fox-it.com
+Maintainer: Dirk-jan Mollema
+Maintainer-email: dirkjan.mollema@fox-it.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Information Technology
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7

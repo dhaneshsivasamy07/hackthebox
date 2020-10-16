@@ -1,0 +1,35 @@
+windows-binaries (0.5-0kali0) kali; urgency=low
+
+  * Updated the pwdump binary
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 26 May 2015 10:52:57 -0600
+
+windows-binaries (0.4-0kali1) kali; urgency=low
+
+  * Incorporated fgdump (Closes: 0001149)
+
+ -- Devon Kearns <dookie@kali.org>  Tue, 15 Apr 2014 13:28:35 -0600
+
+windows-binaries (0.3-0kali1) kali; urgency=low
+
+  * Added new version of plink.exe
+
+ -- Devon Kearns <dookie@kali.org>  Thu, 20 Feb 2014 09:41:58 -0700
+
+windows-binaries (0.2-1kali0) kali; urgency=low
+
+  * Added hyperion
+
+ -- Devon Kearns <dookie@kali.org>  Thu, 02 May 2013 07:12:24 -0600
+
+windows-binaries (0.1-1kali1) kali; urgency=low
+
+  * Moved to non-free
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 02 Mar 2013 12:03:01 -0500
+
+windows-binaries (0.1-1kali0) kali; urgency=low
+
+  * Initial release 
+
+ -- Devon Kearns <dookie@kali.org>  Mon, 11 Feb 2013 14:29:30 -0700

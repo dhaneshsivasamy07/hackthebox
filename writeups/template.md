@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="assets/htb.png" alt='HTB_logo'>
+  <img src="https://github.com/cyberwr3nch/hackthebox/blob/master/writeups/assets/htb.png" alt='HTB_logo'>
 </p>
 
 
