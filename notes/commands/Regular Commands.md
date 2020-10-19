@@ -5,6 +5,7 @@
 - AWK
 - Tar
 - Find
+- Misc
 
 
 #### ls
@@ -50,12 +51,21 @@ awk 'NR==x {print $1}'
 
 ```
 
-
-#### Tar
+#### SED
 ```bash
-# unzip a *.tar.gz file
-tar -xzvf html.tar.gz
+# search and replace strings
+cat username.txt | sed s/{stringToBeChanged}/{replacementString}/g
+
+# replace the last ',' with a null character
+cat usernames.txt | sed s/,$//
 ```
+
+#### tr
+```bash
+# translate new lines '\n' into ','; used in HTB nmap
+cat usernames.txt | tr '\n' ','
+```
+
 
 #### Find
 ```bash
@@ -72,8 +82,24 @@ find . -type d -name uploads -exec rm -rf "{}" ';'
 find -name 'file.ext' -exec cp "{}" <copy_path>  \;
 ```
 
-#### Monitor
+#### Compressing and Decompressing
 ```bash
+# zip a folder with its contents
+zip -r -9 html.zip /var/www/html
+
+# unzip a zip file
+unzip html.zip
+
+# unzip a *.tar.gz file
+tar -xzvf html.tar.gz
+
+# unzip rar file
+unrar x html.rar
+```
+
+#### Misc
+```bash
+# monitor, repeat the same command for a period of time
 # ls -la every 1 sec on a dir
 watch -n 1 'ls -la'
 ```
