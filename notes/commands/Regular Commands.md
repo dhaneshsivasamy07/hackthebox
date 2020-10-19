@@ -5,6 +5,7 @@
 - AWK
 - Compression and decompression of files
 - Find
+- xclip
 - Misc
 
 
@@ -90,11 +91,33 @@ zip -r -9 html.zip /var/www/html
 # unzip a zip file
 unzip html.zip
 
+# tar a file
+tar cvf html.tar html/
+
+# extract a .tar file
+tar -xvf html.tar 
+
+# tar.gz a folder
+tar cvfz html.tar.gz html/
+
 # unzip a *.tar.gz file
 tar -xzvf html.tar.gz
 
 # unzip rar file
 unrar x html.rar
+```
+
+#### Xclip
+```bash
+# installation
+sudo apt-get install xclip
+
+# copying contents from a file and pasting it with 'mouse scroll button'
+cat user.txt | xclip
+
+# copying file and using cttl + v for pasting
+cat user.txt | xclip -sel clip
+cat user.txt | xclip -selection clipboard
 ```
 
 #### Misc
