@@ -3,7 +3,7 @@
 - ls
 - Grep 
 - AWK
-- Tar
+- Compression and decompression of files
 - Find
 - Misc
 
