@@ -50,6 +50,9 @@ awk -F"[][]" '{print $2}' users.txt # output: BLACKFIELD764430
 # where x is the line number	
 awk 'NR==x {print $1}'
 
+# print lines form a specific line to the end of the file
+awk 'NR>x' users.txt
+
 ```
 
 #### SED
