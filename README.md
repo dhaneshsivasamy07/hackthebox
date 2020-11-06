@@ -41,6 +41,7 @@ These are the urls that has the writeups for active and retired machines
 - [0xdf's Blog](https://0xdf.gitlab.io/)
 - [0xrick's Blog](https://0xrick.github.io/)
 - [SecJuice](https://www.secjuice.com/)
+- [Sector 035 OSINT](https://medium.com/@sector035) :star:
 
 #### nvm this
 Constantly updating from *MAY 3<sup>rd</sup> 2020*
