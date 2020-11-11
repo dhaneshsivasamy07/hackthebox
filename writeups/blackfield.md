@@ -2,10 +2,13 @@
   <img src="https://github.com/cyberwr3nch/hackthebox/blob/master/writeups/assets/Blackfield.jpg" alt='HTB_logo'>
 </p>
 
-
 ### Description:
-
-This machine...
+- Enumerating AD user
+- Obtaining TGT Tickets for users with PRE_AUTH Disabled
+- With the obtained **audit2020** user the smb share *forencis* is accessable
+- Analyzing the lsass file from the forencis share gives the NTLM hash for **svc_backup** and **Administrator**
+- With the **SeBackupPriviledge** and **SeRestorePriviledge** available for the svc_backup account the system is backedup a bit and the system key is retrived from the backup
+- The machine has made its way to the **_Active Directory Tracks_**
 
 ### Difficulty:
 
@@ -26,7 +29,7 @@ This machine...
 - Obtain the `asrep` token for the `support` user
 - Crack the asrep token, obtained password: `#00^BlackKnight`
 - Enumerate `rpc` with `rpcclinet`
-- Checking for `Kerberos-pre-auth` enabled for the newly enabled users
+- Checking for `Kerberos-pre-auth` disabled for the newly enabled users
 - Running bloodhound to obtain information
 - Mark the `support` user as `owned`
 - Mark the users `svc_backup` and `audit2020` as `high valuable`
