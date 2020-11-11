@@ -1,12 +1,15 @@
 ### Post \ Pre Exploitation
 
-- ls
-- Grep 
-- AWK
-- Compression and decompression of files
-- Find
-- xclip
-- Misc
+- [ls](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#ls)
+- [Grep](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#grep)
+- [AWK](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#awk)
+- [Compression and decompression of files](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#compressing-and-decompressing)
+- [Find](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#find)
+- [xclip](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#xclip)
+- [Misc](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#misc)
+- [bashLoops](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#bash-loops)
+- [sed](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#sed)
+- [tr](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#tr)
 
 
 #### ls
