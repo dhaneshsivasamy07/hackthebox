@@ -62,6 +62,9 @@ cat username.txt | sed s/{stringToBeChanged}/{replacementString}/g
 
 # replace the last ',' with a null character
 cat usernames.txt | sed s/,$//
+
+# add \x after every two characters, the .. denotes the two characters, \x&, adds \x and & doesnt delete the characters that were before
+cat hexpayload.txt | sed 's/../\\x&/g'
 ```
 
 #### tr
@@ -121,6 +124,9 @@ cat user.txt | xclip
 # copying file and using cttl + v for pasting
 cat user.txt | xclip -sel clip
 cat user.txt | xclip -selection clipboard
+
+# copy the contents in the primary clipboard
+cat user.txt | xclip -selection primary
 ```
 
 #### Misc
@@ -128,4 +134,10 @@ cat user.txt | xclip -selection clipboard
 # monitor, repeat the same command for a period of time
 # ls -la every 1 sec on a dir
 watch -n 1 'ls -la'
+```
+
+#### Bash Loops
+```bash
+# for loop that adds payload += in each line of the file
+for i in $(cat hexdata); do echo "payload += b'$i'"; done
 ```
