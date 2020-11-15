@@ -116,7 +116,11 @@ DNS Lookup, Recon, ZoneTransfer, /etc/passwd password tampering
 - [ ] 176 : Hackback : 10.10.10.128 : Windows - Insane 
 - [ ] 177 : Netmon : 10.10.10.152 : Windows - Medium 
 - [ ] 178 : Fortune : 10.10.10.127 : Other - Insane 
-- [ ] 179 : Arkham : 10.10.10.130 : Windows - Hard 
+
+- [x] 179 : Arkham : 10.10.10.130 : Windows - Medium
+LUKS decryption, DES, java deserialization, ost file, EnterPSSession, UAC Bypass
+***
+
 - [ ] 180 : Helpline : 10.10.10.132 : Windows - Insane 
 - [ ] 181 : LaCasaDePapel : 10.10.10.131 : Linux - Medium 
 - [ ] 183 : Kryptos : 10.10.10.129 : Linux - Insane 
@@ -176,7 +180,11 @@ SQL Injection, Socat, MySQL, SUID Find, Path Exploitation
 ***
 
 - [ ] 244 : Quick : 10.10.10.186 : Linux - Insane 
-- [ ] 248 : Admirer : 10.10.10.187 : Linux - Medium 
+
+- [x] 248 : Admirer : 10.10.10.187 : Linux - Easy 
+SSH PassSpray, MySQL, socat, LFI, Python, Path Hijack
+***
+
 - [ ] 251 : Cache : 10.10.10.188 : Linux - Hard 
 - [ ] 252 : Travel : 10.10.10.189 : Linux - Insane 
 - [ ] 253 : Dyplesher : 10.10.10.190 : Linux - Insane 
