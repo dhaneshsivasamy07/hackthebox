@@ -88,8 +88,14 @@ find . -name '*.txt' -exec cat "{}" \;
 # {} is used as the place holder and tells the follwing to as an argument
 # find directories with the specified name and execute the command
 find . -type d -name uploads -exec rm -rf "{}" ';'
+
 # find and copy files 
 find -name 'file.ext' -exec cp "{}" <copy_path>  \;
+
+# find the recently modified files
+# maxdepth - sub directories, newermt - timestamp
+find . -maxdepth 1 -newermt "2016-12-06"
+
 ```
 
 #### Compressing and Decompressing
