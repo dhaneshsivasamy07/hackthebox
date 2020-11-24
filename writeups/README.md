@@ -191,7 +191,11 @@ SSH PassSpray, MySQL, socat, LFI, Python, Path Hijack
 - [ ] 252 : Travel : 10.10.10.189 : Linux - Insane 
 - [ ] 253 : Dyplesher : 10.10.10.190 : Linux - Insane 
 - [ ] 254 : Blunder : 10.10.10.191 : Linux - Medium 
-- [ ] 255 : Blackfield : 10.10.10.192 : Windows - Insane 
+
+- [x] 255 : Blackfield : 10.10.10.192 : Windows - Hard
+RPCClient, GetNPUsers.py, ForceChangePassword, pypykatz, lsass, Backup and Restore Priviledge, ntfs disk, registry, AD Track
+***
+
 - [ ] 256 : Fuse : 10.10.10.193 : Windows - Hard 
 - [ ] 259 : Tabby : 10.10.10.194 : Linux - Medium 
 - [ ] 260 : RopeTwo : 10.10.10.196 : Linux - Insane 
