@@ -118,7 +118,7 @@ DNS Lookup, Recon, ZoneTransfer, /etc/passwd password tampering
 - [ ] 178 : Fortune : 10.10.10.127 : Other - Insane 
 
 - [x] 179 : Arkham : 10.10.10.130 : Windows - Medium <br>
-LUKS decryption, DES, java deserialization, ost file, EnterPSSession, UAC Bypass
+LUKS decryption, DES, java deserialization, ost file, EnterPSSession, UAC Bypass,SYNACK Track
 ***
 
 - [ ] 180 : Helpline : 10.10.10.132 : Windows - Insane 
@@ -179,7 +179,9 @@ LUKS decryption, DES, java deserialization, ost file, EnterPSSession, UAC Bypass
 SQL Injection, Socat, MySQL, SUID Find, Path Exploitation
 ***
 
-- [ ] 244 : Quick : 10.10.10.186 : Linux - Insane 
+- [x] 244 : Quick : 10.10.10.186 : Linux - Hard <br>
+HTTP3, QUIC, ESI Injection, PHP Password Cracking, MySQL, symblink, SYNACK Track
+***
 
 - [x] 248 : Admirer : 10.10.10.187 : Linux - Easy  <br>
 SSH PassSpray, MySQL, socat, LFI, Python, Path Hijack
