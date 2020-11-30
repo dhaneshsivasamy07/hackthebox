@@ -28,6 +28,7 @@ la -sh
 ```bash
 # search for the files that contains the phrase password in it
 grep -ir password
+grep -iRl "password" ./
 
 # exclude multiple strings
 grep -Ev 'exclude1 | exclude 2' filename.txt
@@ -96,6 +97,8 @@ find -name 'file.ext' -exec cp "{}" <copy_path>  \;
 # maxdepth - sub directories, newermt - timestamp
 find . -maxdepth 1 -newermt "2016-12-06"
 
+# find files with specific string in it
+find . -type f -print0 | xargs -0 -e grep -niH -e "your common word to search"
 ```
 
 #### Compressing and Decompressing
