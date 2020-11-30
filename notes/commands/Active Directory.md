@@ -76,4 +76,8 @@ rppclient -U userName machineIP
 # password for the user we have access to
 
 rpcclinet $> setuserinfo2 {userToChange} 23 '{PasswordToChange}'
+# enumerates users which mostly will be AD Users
+rpcclinet $> enumdomusers
+# enumerate printers in the machine
+rpcclinet $> enumprinters
 ```
