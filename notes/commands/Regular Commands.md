@@ -4,6 +4,7 @@
 - [Grep](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#grep)
 - [AWK](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#awk)
 - [Curl](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#curl)
+- [wget](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#wget)
 - [Compression and decompression of files](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#compressing-and-decompressing)
 - [Find](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#find)
 - [xclip](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#xclip)
