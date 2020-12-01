@@ -59,6 +59,8 @@ awk 'NR==x {print $1}'
 # print lines form a specific line to the end of the file
 awk 'NR>x' users.txt
 
+# omit all the blank lines in a file
+awk 'NF'
 ```
 
 #### Curl
