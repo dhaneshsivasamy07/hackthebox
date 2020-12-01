@@ -51,6 +51,9 @@
 ssh -R 80:localhost:8888 10.10.10.10
 
 # syntax: ssh -N LOCAL_PORT:DESTINATION:DESTINATION_PORT [USER@]SSH_SERVER
+# open a port on the atatckers machine
+# to enter the ssh mode use "~C"
+# ssh> -L {attackerMachinePort}:{victimMachine}:{victimPort} //victim machine mat be, 127.0.0.1 or an IP address that the compromized machine have access to
 ssh -NL 8080:127.0.0.1:8080 10.10.10.10
 
 ```
