@@ -5,6 +5,7 @@
 - [Mysql Stuffs](#mysql)
 - [Passwd Stuffs](#passwd)
 - [Port Forwarding](#pd)
+- [Linux Update/Upgrade Error](#error)
 
 
 #### DNS Things:<a name='dns'></a>
@@ -64,5 +65,13 @@ chisel server -p 9999 --reverse
 
 # on the victim machine
 chisel client 10.10.10.10:9999 R:443:127.0.0.1:443
+```
+
+#### Linux Update/Upgrade Error:<a name='error'></a>
+```bash
+sudo rm -rf /var/lib/apt/lists/*
+sudo apt-get clean
+sudo apt-get update
+sudo apt-get upgrade
 ```
 
