@@ -34,4 +34,8 @@
 	```python
 		curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py; python get-pip.py
 	```
+- Get **pip3**:
+	```bash
+		sudo apt-get install python3-pip
+	```
 - Bypass php [disabled_functions](https://packetstormsecurity.com/files/154728/PHP-7.3-disable_functions-Bypass.html) from PHP verison 7.x - 7.3
