@@ -8,17 +8,22 @@ Will be periodiclly updated, created with the intend of unwraping all possible w
 created & maintained by: **cyberwr3nch**
 
 # Contents
-- Tools used for CTFs
-- Commands used for normal linux usage and for ctfs
-- Writeups methodologies from official HTB writeups, IppSec, other bloggers and My approach
-- Scripts that I create in my free time either for box or for fun
+
+| File | Contents |
+| ---- | -------- |
+| [Active Directory](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Active%20Directory.md) | Bruteforce SMB, Winrm Bruteforce, AD User Enumeration, Mounting Disks, BloodHound, rpcclinet |
+| [Directory Enumeration](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Directory%20Enumeration.md) | gobuster, rustbuster, wfuzz, vhosts |
+| [File Transfer](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/FileTransfer.md) | ftp, python, netcat, http, powershell curling, metasploit, smb, net use, impackets |
+| [Nmap](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Nmap.md) | Nmap, PortScanning, Tags |
+| [Notes](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Notes.md) | DNS Recon, 302 Redirects, Burpsuite, MySQL, Passwd File, Port Forwarding |
+| [Password Cracking](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Password%20Cracking.md) | hashcat, john, hashexamples, zip file cracking |
+| [Post Exploitation](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/PostExploitationCommands.md) | current user, network infos, locate, Antivirus Disabling, registry, priviledges, running process, plink, stored credentials, wmic | 
+| [Regular Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md) | ls, Grep, AWK, Curl, wget, Compression and decompression of files, Find, xclip, Misc, bashLoops, sed, tr |
+| [Reverse Shells](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/ReverseShell.md) | php, image exiftool, bash, python, aspx |
+| [Web Attacks](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/WebAttacks.md) | sql-injection, login bruteforce( wfuzz, hydra) |
+| [Docker Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Docker%20Commands.md) | installation, building, pulling, updating, deleting, listing, cheatsheet |
 
 ### Tools
-- LinEnum; linPEAS; winPEAS; winBAT
-- Static Binaries ( plink, nc, whoami, etc..,)
-- Socat, Chisel
-- Exiftool
-- php reverse shell
 
 #### SAY NO TO MSF !
 
