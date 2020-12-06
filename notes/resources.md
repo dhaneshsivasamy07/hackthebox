@@ -23,6 +23,7 @@
 - Docker.sock exposure [medium](https://medium.com/better-programming/about-var-run-docker-sock-3bfd276e12fd) post by [Luc Juggery](https://medium.com/@lucjuggery)
 - Multiple Docker Security [articles](https://securityboulevard.com/2019/02/abusing-docker-api-socket/)
 - LXD privEsc, happens when the user belongs to the [lxd](https://www.hackingarticles.in/lxd-privilege-escalation/) group.
+- Docker Chear Sheet by [wsargent](https://github.com/wsargent/docker-cheat-sheet/blob/master/README.md)
 
 ### Useful Things
 - File Upload Via *[CURL](https://medium.com/@petehouston/upload-files-with-curl-93064dcccc76)*<br />
