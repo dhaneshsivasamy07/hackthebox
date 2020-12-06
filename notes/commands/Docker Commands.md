@@ -8,6 +8,11 @@
 docker build -t <tagname> .
 ```
 
+- Downloading a docker file
+```bash
+docker pull <container name>
+```
+
 - Running a docker
 ```bash
 # listing the docker images 
