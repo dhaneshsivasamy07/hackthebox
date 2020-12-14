@@ -9,6 +9,9 @@
 - <b>name_grab.py</b> - Grabs the file names in the git repo, created for traceback machine. <br />
 - <b>snapwr3nch.py</b> - Grabs your achievement and gives it <br />
 - <b>adapter.sh</b> - When used with `.p10k.zsh` example function , if the vpn is available, it will show in the right side<br />
+- <b>xpath-inj</b> - XPath Injection payload with proxy url enabled, bruteforces user logins. Used in the `Unbalanced Machine` <br />
+- <b>arkham.py</b> - Have the ysoserial in the current directory and pass the arguments, `url`, `command`, `secretkey`<br />
+- <b>travel.py</b> - Automated SSRF with gopher scheme and obtains shell as `www-data`<br />
 
 ### Demo
 

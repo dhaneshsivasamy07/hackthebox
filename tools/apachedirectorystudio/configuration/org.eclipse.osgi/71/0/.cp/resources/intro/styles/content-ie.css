@@ -1,0 +1,241 @@
+/*
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+*/
+
+body 
+{
+	background-image : url("../graphics/contentpages/background.gif");
+	background-repeat: repeat-x;
+	background-position: top left;
+	background-attachment: fixed;
+	background-color: #FFFFFF;
+	color : #4D4D4D;
+	font-family : Arial, sans-serif;
+}
+
+#overview a
+{
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	top: 10px;
+	left: 21px;
+	text-decoration: none;
+    background-image : url("../graphics/contentpages/overview.gif");
+	background-repeat: no-repeat;
+	z-index: 4;
+}
+
+#overview a:hover
+{
+	position: absolute;
+	height: 58px;
+	width: 70px;
+	top: 2px;
+	left: 12px;
+	text-decoration: none;
+    background-image : url("../graphics/contentpages/overview_hover.gif");
+	background-repeat: no-repeat;
+	z-index: 8;
+}
+
+#overview-visited
+{
+	position: absolute;
+	height: 64px;
+	width: 64px;
+	top: 2px;
+	left: 7px;
+	text-decoration: none;
+    background-image : url("../graphics/contentpages/overview_selected.gif");
+	background-repeat: no-repeat;
+	z-index: 1;
+}
+
+#whatsnew a
+{
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	top: 10px;
+	left: 88px;
+	text-decoration: none;
+    background-image : url("../graphics/contentpages/whats_new.gif");
+	background-repeat: no-repeat;
+	z-index: 5;
+}
+
+#whatsnew a:hover
+{
+	position: absolute;
+	height: 58px;
+	width: 84px;
+	top: 2px;
+	left: 78px;
+	text-decoration: none;
+    background-image : url("../graphics/contentpages/whats_new_hover.gif");
+	background-repeat: no-repeat;
+	z-index: 9;
+}
+
+#whatsnew-visited
+{
+	position: absolute;
+	height: 64px;
+	width: 64px;
+	top: 2px;
+	left: 72px;
+	text-decoration: none;
+    background-image : url("../graphics/contentpages/whats_new_selected.gif");
+	background-repeat: no-repeat;
+	z-index: 2;
+}
+
+#webresources a
+{
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	top: 10px;
+	left: 152px;
+	text-decoration: none;
+    background-image : url("../graphics/contentpages/web_resources.gif");
+	background-repeat: no-repeat;
+	z-index: 6;
+}
+
+#webresources a:hover
+{
+	position: absolute;
+	height: 58px;
+	width: 108px;
+	top: 2px;
+	left: 142px;
+	text-decoration: none;
+    background-image : url("../graphics/contentpages/web_resources_hover.gif");
+	background-repeat: no-repeat;
+	z-index: 10;
+}
+
+#webresources-visited
+{
+	position: absolute;
+	height: 64px;
+	width: 64px;
+	top: 2px;
+	left: 137px;
+	text-decoration: none;
+    background-image : url("../graphics/contentpages/web_resources_selected.gif");
+	background-repeat: no-repeat;
+	z-index: 3;
+}
+
+#workbench a
+{
+	position: absolute;
+	height: 32px;
+	width: 32px;
+	top: 10px;
+	left: 503px;
+	text-decoration: none;
+    background-image : url("../graphics/contentpages/workbench.gif");
+	background-repeat: no-repeat;
+	z-index: 7;
+}
+
+#workbench a:hover
+{
+	position: absolute;
+	height: 58px;
+	width: 108px;
+	top: 2px;
+	left: 493px;
+	text-decoration: none;
+    background-image : url("../graphics/contentpages/workbench_hover.gif");
+	background-repeat: no-repeat;
+	z-index: 11;
+}
+
+#title
+{
+	position: absolute;
+	top: 84px;
+	left: 74px;
+	font: 34px Arial, Helvetica, Geneva, sans-serif;
+	color: #333;
+}
+
+#description
+{
+	position: absolute;
+	left: 74px;
+	top: 152px;
+	font-family: Verdana, Arial, Helvetica; 
+	font-size: 10pt; 
+	line-height:1.3;
+}
+
+#left-column
+{
+	position: absolute;
+	top: 212px;
+	width: 45%;
+	margin-left: 20px;
+}
+
+#right-column
+{	
+	position: absolute;
+	top: 212px;
+	left: 50%;
+	width: 45%;
+}
+
+.entry
+{
+	height: 90px;
+}
+
+.entry a
+{
+	text-decoration: none;
+	color : #4D4D4D;
+	font-family : Arial, sans-serif;
+}
+
+.entry-icon
+{
+	float: left;
+	width: 65px;
+}
+
+.entry-title
+{
+	font-family: Verdana, Arial, Helvetica; 
+	font-size: 11pt; 
+	font-weight: bold; 
+	line-height:1.5;
+	color: #00507C;
+	margin-bottom: 6px;
+}
+
+.entry-description
+{
+	font-family: Verdana, Arial, Helvetica;
+	font-size: 10pt; 
+}

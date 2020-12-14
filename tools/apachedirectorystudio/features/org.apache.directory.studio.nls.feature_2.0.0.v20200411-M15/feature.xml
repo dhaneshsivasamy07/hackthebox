@@ -1,0 +1,2004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="org.apache.directory.studio.nls.feature"
+      label="Apache Directory Studio National Language Support"
+      version="2.0.0.v20200411-M15"
+      provider-name="Apache Software Foundation"
+      image="studio.png">
+
+   <description>
+      Apache Directory Studio NLS - French and German translations.
+   </description>
+
+   <copyright>
+      Copyright © 2006-2020 The Apache Software Foundation, Licensed
+under the Apache License, Version 2.0.
+   </copyright>
+
+   <license url="http://www.apache.org/licenses/LICENSE-2.0.html">
+      Apache License
+Version 2.0, January 2004
+http://www.apache.org/licenses/
+
+   TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION
+
+   1. Definitions.
+
+      &quot;License&quot; shall mean the terms and conditions for use, reproduction,
+      and distribution as defined by Sections 1 through 9 of this document.
+
+      &quot;Licensor&quot; shall mean the copyright owner or entity authorized by
+      the copyright owner that is granting the License.
+
+      &quot;Legal Entity&quot; shall mean the union of the acting entity and all
+      other entities that control, are controlled by, or are under common
+      control with that entity. For the purposes of this definition,
+      &quot;control&quot; means (i) the power, direct or indirect, to cause the
+      direction or management of such entity, whether by contract or
+      otherwise, or (ii) ownership of fifty percent (50%) or more of the
+      outstanding shares, or (iii) beneficial ownership of such entity.
+
+      &quot;You&quot; (or &quot;Your&quot;) shall mean an individual or Legal Entity
+      exercising permissions granted by this License.
+
+      &quot;Source&quot; form shall mean the preferred form for making modifications,
+      including but not limited to software source code, documentation
+      source, and configuration files.
+
+      &quot;Object&quot; form shall mean any form resulting from mechanical
+      transformation or translation of a Source form, including but
+      not limited to compiled object code, generated documentation,
+      and conversions to other media types.
+
+      &quot;Work&quot; shall mean the work of authorship, whether in Source or
+      Object form, made available under the License, as indicated by a
+      copyright notice that is included in or attached to the work
+      (an example is provided in the Appendix below).
+
+      &quot;Derivative Works&quot; shall mean any work, whether in Source or Object
+      form, that is based on (or derived from) the Work and for which the
+      editorial revisions, annotations, elaborations, or other modifications
+      represent, as a whole, an original work of authorship. For the purposes
+      of this License, Derivative Works shall not include works that remain
+      separable from, or merely link (or bind by name) to the interfaces of,
+      the Work and Derivative Works thereof.
+
+      &quot;Contribution&quot; shall mean any work of authorship, including
+      the original version of the Work and any modifications or additions
+      to that Work or Derivative Works thereof, that is intentionally
+      submitted to Licensor for inclusion in the Work by the copyright owner
+      or by an individual or Legal Entity authorized to submit on behalf of
+      the copyright owner. For the purposes of this definition, &quot;submitted&quot;
+      means any form of electronic, verbal, or written communication sent
+      to the Licensor or its representatives, including but not limited to
+      communication on electronic mailing lists, source code control systems,
+      and issue tracking systems that are managed by, or on behalf of, the
+      Licensor for the purpose of discussing and improving the Work, but
+      excluding communication that is conspicuously marked or otherwise
+      designated in writing by the copyright owner as &quot;Not a Contribution.&quot;
+
+      &quot;Contributor&quot; shall mean Licensor and any individual or Legal Entity
+      on behalf of whom a Contribution has been received by Licensor and
+      subsequently incorporated within the Work.
+
+   2. Grant of Copyright License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      copyright license to reproduce, prepare Derivative Works of,
+      publicly display, publicly perform, sublicense, and distribute the
+      Work and such Derivative Works in Source or Object form.
+
+   3. Grant of Patent License. Subject to the terms and conditions of
+      this License, each Contributor hereby grants to You a perpetual,
+      worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+      (except as stated in this section) patent license to make, have made,
+      use, offer to sell, sell, import, and otherwise transfer the Work,
+      where such license applies only to those patent claims licensable
+      by such Contributor that are necessarily infringed by their
+      Contribution(s) alone or by combination of their Contribution(s)
+      with the Work to which such Contribution(s) was submitted. If You
+      institute patent litigation against any entity (including a
+      cross-claim or counterclaim in a lawsuit) alleging that the Work
+      or a Contribution incorporated within the Work constitutes direct
+      or contributory patent infringement, then any patent licenses
+      granted to You under this License for that Work shall terminate
+      as of the date such litigation is filed.
+
+   4. Redistribution. You may reproduce and distribute copies of the
+      Work or Derivative Works thereof in any medium, with or without
+      modifications, and in Source or Object form, provided that You
+      meet the following conditions:
+
+      (a) You must give any other recipients of the Work or
+          Derivative Works a copy of this License; and
+
+      (b) You must cause any modified files to carry prominent notices
+          stating that You changed the files; and
+
+      (c) You must retain, in the Source form of any Derivative Works
+          that You distribute, all copyright, patent, trademark, and
+          attribution notices from the Source form of the Work,
+          excluding those notices that do not pertain to any part of
+          the Derivative Works; and
+
+      (d) If the Work includes a &quot;NOTICE&quot; text file as part of its
+          distribution, then any Derivative Works that You distribute must
+          include a readable copy of the attribution notices contained
+          within such NOTICE file, excluding those notices that do not
+          pertain to any part of the Derivative Works, in at least one
+          of the following places: within a NOTICE text file distributed
+          as part of the Derivative Works; within the Source form or
+          documentation, if provided along with the Derivative Works; or,
+          within a display generated by the Derivative Works, if and
+          wherever such third-party notices normally appear. The contents
+          of the NOTICE file are for informational purposes only and
+          do not modify the License. You may add Your own attribution
+          notices within Derivative Works that You distribute, alongside
+          or as an addendum to the NOTICE text from the Work, provided
+          that such additional attribution notices cannot be construed
+          as modifying the License.
+
+      You may add Your own copyright statement to Your modifications and
+      may provide additional or different license terms and conditions
+      for use, reproduction, or distribution of Your modifications, or
+      for any such Derivative Works as a whole, provided Your use,
+      reproduction, and distribution of the Work otherwise complies with
+      the conditions stated in this License.
+
+   5. Submission of Contributions. Unless You explicitly state otherwise,
+      any Contribution intentionally submitted for inclusion in the Work
+      by You to the Licensor shall be under the terms and conditions of
+      this License, without any additional terms or conditions.
+      Notwithstanding the above, nothing herein shall supersede or modify
+      the terms of any separate license agreement you may have executed
+      with Licensor regarding such Contributions.
+
+   6. Trademarks. This License does not grant permission to use the trade
+      names, trademarks, service marks, or product names of the Licensor,
+      except as required for reasonable and customary use in describing the
+      origin of the Work and reproducing the content of the NOTICE file.
+
+   7. Disclaimer of Warranty. Unless required by applicable law or
+      agreed to in writing, Licensor provides the Work (and each
+      Contributor provides its Contributions) on an &quot;AS IS&quot; BASIS,
+      WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+      implied, including, without limitation, any warranties or conditions
+      of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+      PARTICULAR PURPOSE. You are solely responsible for determining the
+      appropriateness of using or redistributing the Work and assume any
+      risks associated with Your exercise of permissions under this License.
+
+   8. Limitation of Liability. In no event and under no legal theory,
+      whether in tort (including negligence), contract, or otherwise,
+      unless required by applicable law (such as deliberate and grossly
+      negligent acts) or agreed to in writing, shall any Contributor be
+      liable to You for damages, including any direct, indirect, special,
+      incidental, or consequential damages of any character arising as a
+      result of this License or out of the use or inability to use the
+      Work (including but not limited to damages for loss of goodwill,
+      work stoppage, computer failure or malfunction, or any and all
+      other commercial damages or losses), even if such Contributor
+      has been advised of the possibility of such damages.
+
+   9. Accepting Warranty or Additional Liability. While redistributing
+      the Work or Derivative Works thereof, You may choose to offer,
+      and charge a fee for, acceptance of support, warranty, indemnity,
+      or other liability obligations and/or rights consistent with this
+      License. However, in accepting such obligations, You may act only
+      on Your own behalf and on Your sole responsibility, not on behalf
+      of any other Contributor, and only if You agree to indemnify,
+      defend, and hold each Contributor harmless for any liability
+      incurred by, or claims asserted against, such Contributor by reason
+      of your accepting any such warranty or additional liability.
+   </license>
+
+   <url>
+      <update label="Apache Directory Studio" url="https://directory.apache.org/studio/update/product"/>
+   </url>
+
+   <requires>
+      <import plugin="org.eclipse.ant.core"/>
+      <import plugin="org.eclipse.compare.core"/>
+      <import plugin="org.eclipse.compare"/>
+      <import plugin="org.eclipse.core.commands"/>
+      <import plugin="org.eclipse.core.databinding.beans"/>
+      <import plugin="org.eclipse.core.databinding"/>
+      <import plugin="org.eclipse.core.databinding.observable"/>
+      <import plugin="org.eclipse.core.databinding.property"/>
+      <import plugin="org.eclipse.core.externaltools"/>
+      <import plugin="org.eclipse.core.filebuffers"/>
+      <import plugin="org.eclipse.core.filesystem"/>
+      <import plugin="org.eclipse.core.net"/>
+      <import plugin="org.eclipse.core.resources"/>
+      <import plugin="org.eclipse.core.variables"/>
+      <import plugin="org.eclipse.debug.core"/>
+      <import plugin="org.eclipse.debug.ui"/>
+      <import plugin="org.eclipse.e4.core.commands"/>
+      <import plugin="org.eclipse.e4.ui.bindings"/>
+      <import plugin="org.eclipse.e4.ui.css.core"/>
+      <import plugin="org.eclipse.e4.ui.css.swt"/>
+      <import plugin="org.eclipse.e4.ui.css.swt.theme"/>
+      <import plugin="org.eclipse.e4.ui.di"/>
+      <import plugin="org.eclipse.e4.ui.model.workbench"/>
+      <import plugin="org.eclipse.e4.ui.services"/>
+      <import plugin="org.eclipse.e4.ui.widgets"/>
+      <import plugin="org.eclipse.e4.ui.workbench.addons.swt"/>
+      <import plugin="org.eclipse.e4.ui.workbench"/>
+      <import plugin="org.eclipse.e4.ui.workbench.renderers.swt"/>
+      <import plugin="org.eclipse.e4.ui.workbench.swt"/>
+      <import plugin="org.eclipse.e4.ui.workbench3"/>
+      <import plugin="org.eclipse.equinox.frameworkadmin.equinox"/>
+      <import plugin="org.eclipse.equinox.frameworkadmin"/>
+      <import plugin="org.eclipse.equinox.launcher"/>
+      <import plugin="org.eclipse.equinox.p2.artifact.repository"/>
+      <import plugin="org.eclipse.equinox.p2.console"/>
+      <import plugin="org.eclipse.equinox.p2.core"/>
+      <import plugin="org.eclipse.equinox.p2.director.app"/>
+      <import plugin="org.eclipse.equinox.p2.director"/>
+      <import plugin="org.eclipse.equinox.p2.directorywatcher"/>
+      <import plugin="org.eclipse.equinox.p2.engine"/>
+      <import plugin="org.eclipse.equinox.p2.extensionlocation"/>
+      <import plugin="org.eclipse.equinox.p2.garbagecollector"/>
+      <import plugin="org.eclipse.equinox.p2.jarprocessor"/>
+      <import plugin="org.eclipse.equinox.p2.metadata"/>
+      <import plugin="org.eclipse.equinox.p2.metadata.repository"/>
+      <import plugin="org.eclipse.equinox.p2.operations"/>
+      <import plugin="org.eclipse.equinox.p2.publisher.eclipse"/>
+      <import plugin="org.eclipse.equinox.p2.publisher"/>
+      <import plugin="org.eclipse.equinox.p2.reconciler.dropins"/>
+      <import plugin="org.eclipse.equinox.p2.repository"/>
+      <import plugin="org.eclipse.equinox.p2.repository.tools"/>
+      <import plugin="org.eclipse.equinox.p2.touchpoint.eclipse"/>
+      <import plugin="org.eclipse.equinox.p2.touchpoint.natives"/>
+      <import plugin="org.eclipse.equinox.p2.transport.ecf"/>
+      <import plugin="org.eclipse.equinox.p2.ui.importexport"/>
+      <import plugin="org.eclipse.equinox.p2.ui"/>
+      <import plugin="org.eclipse.equinox.p2.ui.sdk"/>
+      <import plugin="org.eclipse.equinox.p2.ui.sdk.scheduler"/>
+      <import plugin="org.eclipse.equinox.p2.updatechecker"/>
+      <import plugin="org.eclipse.equinox.p2.updatesite"/>
+      <import plugin="org.eclipse.equinox.simpleconfigurator.manipulator"/>
+      <import plugin="org.eclipse.equinox.simpleconfigurator"/>
+      <import plugin="org.eclipse.help.base"/>
+      <import plugin="org.eclipse.help"/>
+      <import plugin="org.eclipse.help.ui"/>
+      <import plugin="org.eclipse.help.webapp"/>
+      <import plugin="org.eclipse.jdt.core"/>
+      <import plugin="org.eclipse.jdt.debug"/>
+      <import plugin="org.eclipse.jdt.launching"/>
+      <import plugin="org.eclipse.jface.databinding"/>
+      <import plugin="org.eclipse.jface"/>
+      <import plugin="org.eclipse.jface.text"/>
+      <import plugin="org.eclipse.jsch.core"/>
+      <import plugin="org.eclipse.jsch.ui"/>
+      <import plugin="org.eclipse.ltk.core.refactoring"/>
+      <import plugin="org.eclipse.ltk.ui.refactoring"/>
+      <import plugin="org.eclipse.osgi"/>
+      <import plugin="org.eclipse.osgi.services"/>
+      <import plugin="org.eclipse.osgi.util"/>
+      <import plugin="org.eclipse.platform"/>
+      <import plugin="org.eclipse.search"/>
+      <import plugin="org.eclipse.swt"/>
+      <import plugin="org.eclipse.team.core"/>
+      <import plugin="org.eclipse.team.ui"/>
+      <import plugin="org.eclipse.text"/>
+      <import plugin="org.eclipse.ui.browser"/>
+      <import plugin="org.eclipse.ui.cheatsheets"/>
+      <import plugin="org.eclipse.ui.console"/>
+      <import plugin="org.eclipse.ui.editors"/>
+      <import plugin="org.eclipse.ui.externaltools"/>
+      <import plugin="org.eclipse.ui.forms"/>
+      <import plugin="org.eclipse.ui.ide.application"/>
+      <import plugin="org.eclipse.ui.ide"/>
+      <import plugin="org.eclipse.ui.intro"/>
+      <import plugin="org.eclipse.ui.intro.universal"/>
+      <import plugin="org.eclipse.ui.navigator"/>
+      <import plugin="org.eclipse.ui.navigator.resources"/>
+      <import plugin="org.eclipse.ui.net"/>
+      <import plugin="org.eclipse.ui"/>
+      <import plugin="org.eclipse.ui.themes"/>
+      <import plugin="org.eclipse.ui.views.log"/>
+      <import plugin="org.eclipse.ui.views"/>
+      <import plugin="org.eclipse.ui.views.properties.tabbed"/>
+      <import plugin="org.eclipse.ui.workbench"/>
+      <import plugin="org.eclipse.ui.workbench.texteditor"/>
+      <import plugin="org.eclipse.update.configurator"/>
+   </requires>
+
+   <plugin
+         id="org.eclipse.ant.core.nl_de"
+         download-size="4"
+         install-size="8"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ant.core.nl_fr"
+         download-size="4"
+         install-size="9"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.compare.core.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.compare.core.nl_fr"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.compare.nl_de"
+         download-size="14"
+         install-size="30"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.compare.nl_fr"
+         download-size="14"
+         install-size="34"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.commands.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.commands.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.beans.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.beans.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.nl_fr"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.observable.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.observable.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.property.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.databinding.property.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.externaltools.nl_de"
+         download-size="4"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.externaltools.nl_fr"
+         download-size="4"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.filebuffers.nl_de"
+         download-size="4"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.filebuffers.nl_fr"
+         download-size="4"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem.nl_de"
+         download-size="2"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.filesystem.nl_fr"
+         download-size="2"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.net.nl_de"
+         download-size="2"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.net.nl_fr"
+         download-size="2"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.resources.nl_de"
+         download-size="9"
+         install-size="28"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.resources.nl_fr"
+         download-size="9"
+         install-size="30"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.variables.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.core.variables.nl_fr"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.debug.core.nl_de"
+         download-size="7"
+         install-size="18"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.debug.core.nl_fr"
+         download-size="7"
+         install-size="20"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.debug.ui.nl_de"
+         download-size="35"
+         install-size="83"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.debug.ui.nl_fr"
+         download-size="35"
+         install-size="91"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.core.commands.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.core.commands.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.bindings.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.bindings.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.css.core.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.css.core.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.css.swt.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.css.swt.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.css.swt.theme.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.css.swt.theme.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.di.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.di.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.model.workbench.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.model.workbench.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.services.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.services.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.widgets.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.widgets.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.addons.swt.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.addons.swt.nl_fr"
+         download-size="2"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.renderers.swt.nl_de"
+         download-size="3"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.renderers.swt.nl_fr"
+         download-size="3"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.swt.nl_de"
+         download-size="3"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench.swt.nl_fr"
+         download-size="3"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench3.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.e4.ui.workbench3.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.frameworkadmin.equinox.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.frameworkadmin.equinox.nl_fr"
+         download-size="3"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.frameworkadmin.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.frameworkadmin.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.launcher.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.launcher.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.artifact.repository.nl_de"
+         download-size="6"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.artifact.repository.nl_fr"
+         download-size="6"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.console.nl_de"
+         download-size="2"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.console.nl_fr"
+         download-size="2"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.core.nl_de"
+         download-size="2"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.core.nl_fr"
+         download-size="2"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.director.app.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.director.app.nl_fr"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.director.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.director.nl_fr"
+         download-size="3"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.directorywatcher.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.directorywatcher.nl_fr"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.engine.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.engine.nl_fr"
+         download-size="4"
+         install-size="8"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.extensionlocation.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.extensionlocation.nl_fr"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.garbagecollector.nl_de"
+         download-size="2"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.garbagecollector.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.jarprocessor.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.jarprocessor.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.metadata.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.metadata.nl_fr"
+         download-size="3"
+         install-size="6"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.metadata.repository.nl_de"
+         download-size="2"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.metadata.repository.nl_fr"
+         download-size="2"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.operations.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.operations.nl_fr"
+         download-size="3"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.publisher.eclipse.nl_de"
+         download-size="3"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.publisher.eclipse.nl_fr"
+         download-size="3"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.publisher.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.publisher.nl_fr"
+         download-size="3"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.reconciler.dropins.nl_de"
+         download-size="2"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.reconciler.dropins.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.repository.nl_de"
+         download-size="4"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.repository.nl_fr"
+         download-size="4"
+         install-size="7"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.repository.tools.nl_de"
+         download-size="4"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.repository.tools.nl_fr"
+         download-size="4"
+         install-size="6"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.touchpoint.eclipse.nl_de"
+         download-size="3"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.touchpoint.eclipse.nl_fr"
+         download-size="4"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.touchpoint.natives.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.touchpoint.natives.nl_fr"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.transport.ecf.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.transport.ecf.nl_fr"
+         download-size="3"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.importexport.nl_de"
+         download-size="3"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.importexport.nl_fr"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.nl_de"
+         download-size="6"
+         install-size="17"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.nl_fr"
+         download-size="8"
+         install-size="23"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.sdk.nl_de"
+         download-size="3"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.sdk.nl_fr"
+         download-size="3"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.sdk.scheduler.nl_de"
+         download-size="4"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.ui.sdk.scheduler.nl_fr"
+         download-size="4"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.updatechecker.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.updatechecker.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.updatesite.nl_de"
+         download-size="2"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.p2.updatesite.nl_fr"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.simpleconfigurator.manipulator.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.simpleconfigurator.manipulator.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.simpleconfigurator.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.equinox.simpleconfigurator.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.base.nl_de"
+         download-size="3"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.base.nl_fr"
+         download-size="4"
+         install-size="6"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.ui.nl_de"
+         download-size="6"
+         install-size="13"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.ui.nl_fr"
+         download-size="6"
+         install-size="14"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.webapp.nl_de"
+         download-size="5"
+         install-size="11"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.help.webapp.nl_fr"
+         download-size="6"
+         install-size="12"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core.nl_de"
+         download-size="26"
+         install-size="81"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.core.nl_fr"
+         download-size="28"
+         install-size="96"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.debug.nl_de"
+         download-size="21"
+         install-size="54"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.debug.nl_fr"
+         download-size="21"
+         install-size="60"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.launching.nl_de"
+         download-size="7"
+         install-size="22"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jdt.launching.nl_fr"
+         download-size="7"
+         install-size="24"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.databinding.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.databinding.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.nl_de"
+         download-size="6"
+         install-size="8"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.nl_fr"
+         download-size="6"
+         install-size="8"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.text.nl_de"
+         download-size="12"
+         install-size="32"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jface.text.nl_fr"
+         download-size="11"
+         install-size="32"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jsch.core.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jsch.core.nl_fr"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jsch.ui.nl_de"
+         download-size="3"
+         install-size="7"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.jsch.ui.nl_fr"
+         download-size="4"
+         install-size="8"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ltk.core.refactoring.nl_de"
+         download-size="5"
+         install-size="14"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ltk.core.refactoring.nl_fr"
+         download-size="5"
+         install-size="15"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ltk.ui.refactoring.nl_de"
+         download-size="8"
+         install-size="24"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ltk.ui.refactoring.nl_fr"
+         download-size="8"
+         install-size="24"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.nl_de"
+         download-size="6"
+         install-size="9"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.nl_fr"
+         download-size="7"
+         install-size="14"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.services.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.services.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.util.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.osgi.util.nl_fr"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.platform.nl_de"
+         download-size="3"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.platform.nl_fr"
+         download-size="3"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.search.nl_de"
+         download-size="8"
+         install-size="22"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.search.nl_fr"
+         download-size="8"
+         install-size="23"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.swt.nl_de"
+         download-size="3"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.swt.nl_fr"
+         download-size="3"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.team.core.nl_de"
+         download-size="4"
+         install-size="9"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.team.core.nl_fr"
+         download-size="4"
+         install-size="10"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.team.ui.nl_de"
+         download-size="14"
+         install-size="47"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.team.ui.nl_fr"
+         download-size="14"
+         install-size="50"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.text.nl_de"
+         download-size="4"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.text.nl_fr"
+         download-size="4"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.browser.nl_de"
+         download-size="3"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.browser.nl_fr"
+         download-size="3"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.cheatsheets.nl_de"
+         download-size="5"
+         install-size="14"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.cheatsheets.nl_fr"
+         download-size="5"
+         install-size="15"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.console.nl_de"
+         download-size="3"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.console.nl_fr"
+         download-size="3"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.editors.nl_de"
+         download-size="14"
+         install-size="33"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.editors.nl_fr"
+         download-size="14"
+         install-size="34"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.externaltools.nl_de"
+         download-size="8"
+         install-size="14"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.externaltools.nl_fr"
+         download-size="8"
+         install-size="14"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.forms.nl_de"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.forms.nl_fr"
+         download-size="2"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.ide.application.nl_de"
+         download-size="1"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.ide.application.nl_fr"
+         download-size="1"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.ide.nl_de"
+         download-size="37"
+         install-size="113"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.ide.nl_fr"
+         download-size="39"
+         install-size="132"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.intro.nl_de"
+         download-size="3"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.intro.nl_fr"
+         download-size="3"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.intro.universal.nl_de"
+         download-size="13"
+         install-size="9"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.intro.universal.nl_fr"
+         download-size="13"
+         install-size="10"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.navigator.nl_de"
+         download-size="3"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.navigator.nl_fr"
+         download-size="4"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.navigator.resources.nl_de"
+         download-size="3"
+         install-size="4"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.navigator.resources.nl_fr"
+         download-size="4"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.net.nl_de"
+         download-size="2"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.net.nl_fr"
+         download-size="2"
+         install-size="3"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.nl_de"
+         download-size="6"
+         install-size="20"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.nl_fr"
+         download-size="5"
+         install-size="22"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.themes.nl_de"
+         download-size="1"
+         install-size="1"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.themes.nl_fr"
+         download-size="1"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.log.nl_de"
+         download-size="3"
+         install-size="6"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.log.nl_fr"
+         download-size="3"
+         install-size="6"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.nl_de"
+         download-size="3"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.nl_fr"
+         download-size="3"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.properties.tabbed.nl_de"
+         download-size="3"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.views.properties.tabbed.nl_fr"
+         download-size="3"
+         install-size="2"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.workbench.nl_de"
+         download-size="28"
+         install-size="64"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.workbench.nl_fr"
+         download-size="29"
+         install-size="71"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.workbench.texteditor.nl_de"
+         download-size="13"
+         install-size="35"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.ui.workbench.texteditor.nl_fr"
+         download-size="13"
+         install-size="37"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.update.configurator.nl_de"
+         download-size="3"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="org.eclipse.update.configurator.nl_fr"
+         download-size="3"
+         install-size="5"
+         version="4.7.0.v20171231020002"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

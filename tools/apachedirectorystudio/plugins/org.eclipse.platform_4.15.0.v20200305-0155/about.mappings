@@ -1,0 +1,8 @@
+# about.mappings
+# contains fill-ins for about.properties
+# java.io.Properties file (ISO 8859-1 with "\" escapes)
+# This file does not need to be translated.
+
+0=I20200305-0155
+1=2020-03
+2=4.15

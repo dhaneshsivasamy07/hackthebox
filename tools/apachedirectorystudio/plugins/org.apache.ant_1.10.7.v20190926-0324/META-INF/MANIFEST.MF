@@ -1,0 +1,476 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.apache.ant
+Bundle-SymbolicName: org.apache.ant
+Built-By: default
+Bundle-ManifestVersion: 2
+Bundle-Vendor: %bundleVendor
+Import-Package: COM.ibm.netrexx.process;resolution:=optional,com.jcraf
+ t.jsch;resolution:=optional,com.sun.media.jai.codec;resolution:=optio
+ nal,com.sun.net.ssl.internal.ssl;resolution:=optional,com.sun.tools.j
+ avac;resolution:=optional,com.sun.tools.javah;resolution:=optional,co
+ m.sun.tools.javah.oldjavah;resolution:=optional,gnu.classpath;resolut
+ ion:=optional,gnu.gcj;resolution:=optional,javax.activation;resolutio
+ n:=optional;version="[1.2,2)",javax.imageio;resolution:=optional,java
+ x.imageio.stream;resolution:=optional,javax.mail;resolution:=optional
+ ;version="[1.6,2)",javax.mail.internet;resolution:=optional;version="
+ [1.6,2)",javax.media.jai;resolution:=optional,javax.script;resolution
+ :=optional,javax.sound.sampled;resolution:=optional,javax.swing;resol
+ ution:=optional,javax.swing.border;resolution:=optional,javax.xml.nam
+ espace;resolution:=optional,javax.xml.parsers;resolution:=optional,ja
+ vax.xml.stream;resolution:=optional,javax.xml.transform;resolution:=o
+ ptional,javax.xml.transform.sax;resolution:=optional,javax.xml.transf
+ orm.stream;resolution:=optional,javax.xml.xpath;resolution:=optional,
+ jdepend.framework;resolution:=optional,jdepend.textui;resolution:=opt
+ ional,jdepend.xmlui;resolution:=optional,junit.framework;resolution:=
+ optional,kaffe.util;resolution:=optional,netrexx.lang;resolution:=opt
+ ional,org.apache.bcel.classfile;resolution:=optional;version="[6.2,7)
+ ",org.apache.bsf;resolution:=optional,org.apache.commons.logging;reso
+ lution:=optional,org.apache.commons.net.bsd;resolution:=optional;vers
+ ion="[3.6,4)",org.apache.commons.net.ftp;resolution:=optional;version
+ ="[3.6,4)",org.apache.commons.net.telnet;resolution:=optional;version
+ ="[3.6,4)",org.apache.env;resolution:=optional,org.apache.harmony.lun
+ i.util;resolution:=optional,org.apache.log4j;resolution:=optional;ver
+ sion="[1.2,2)",org.apache.oro.text.regex;resolution:=optional,org.apa
+ che.regexp;resolution:=optional,org.apache.tools.ant;resolution:=opti
+ onal;version="[1.10,2)",org.apache.tools.ant.attribute;resolution:=op
+ tional;version="[1.10,2)",org.apache.tools.ant.dispatch;resolution:=o
+ ptional;version="[1.10,2)",org.apache.tools.ant.filters;resolution:=o
+ ptional;version="[1.10,2)",org.apache.tools.ant.filters.util;resoluti
+ on:=optional;version="[1.10,2)",org.apache.tools.ant.helper;resolutio
+ n:=optional;version="[1.10,2)",org.apache.tools.ant.input;resolution:
+ =optional;version="[1.10,2)",org.apache.tools.ant.launch;resolution:=
+ optional;version="[1.10,2)",org.apache.tools.ant.listener;resolution:
+ =optional;version="[1.10,2)",org.apache.tools.ant.property;resolution
+ :=optional;version="[1.10,2)",org.apache.tools.ant.taskdefs;resolutio
+ n:=optional;version="[1.10,2)",org.apache.tools.ant.taskdefs.compiler
+ s;resolution:=optional;version="[1.10,2)",org.apache.tools.ant.taskde
+ fs.condition;resolution:=optional;version="[1.10,2)",org.apache.tools
+ .ant.taskdefs.email;resolution:=optional;version="[1.10,2)",org.apach
+ e.tools.ant.taskdefs.launcher;resolution:=optional;version="[1.10,2)"
+ ,org.apache.tools.ant.taskdefs.optional;resolution:=optional;version=
+ "[1.10,2)",org.apache.tools.ant.taskdefs.optional.depend.constantpool
+ ;resolution:=optional;version="[1.10,2)",org.apache.tools.ant.taskdef
+ s.optional.extension;resolution:=optional;version="[1.10,2)",org.apac
+ he.tools.ant.taskdefs.optional.extension.resolvers;resolution:=option
+ al;version="[1.10,2)",org.apache.tools.ant.taskdefs.optional.javah;re
+ solution:=optional;version="[1.10,2)",org.apache.tools.ant.taskdefs.o
+ ptional.jsp;resolution:=optional;version="[1.10,2)",org.apache.tools.
+ ant.taskdefs.optional.jsp.compilers;resolution:=optional;version="[1.
+ 10,2)",org.apache.tools.ant.taskdefs.optional.junitlauncher.confined;
+ resolution:=optional;version="[1.10,2)",org.apache.tools.ant.taskdefs
+ .optional.native2ascii;resolution:=optional;version="[1.10,2)",org.ap
+ ache.tools.ant.taskdefs.optional.net;resolution:=optional;version="[1
+ .10,2)",org.apache.tools.ant.taskdefs.rmic;resolution:=optional;versi
+ on="[1.10,2)",org.apache.tools.ant.types;resolution:=optional;version
+ ="[1.10,2)",org.apache.tools.ant.types.optional.image;resolution:=opt
+ ional;version="[1.10,2)",org.apache.tools.ant.types.optional.imageio;
+ resolution:=optional;version="[1.10,2)",org.apache.tools.ant.types.re
+ sources;resolution:=optional;version="[1.10,2)",org.apache.tools.ant.
+ types.resources.comparators;resolution:=optional;version="[1.10,2)",o
+ rg.apache.tools.ant.types.resources.selectors;resolution:=optional;ve
+ rsion="[1.10,2)",org.apache.tools.ant.types.selectors;resolution:=opt
+ ional;version="[1.10,2)",org.apache.tools.ant.types.selectors.modifie
+ dselector;resolution:=optional;version="[1.10,2)",org.apache.tools.an
+ t.types.spi;resolution:=optional;version="[1.10,2)",org.apache.tools.
+ ant.util;resolution:=optional;version="[1.10,2)",org.apache.tools.ant
+ .util.depend;resolution:=optional;version="[1.10,2)",org.apache.tools
+ .ant.util.facade;resolution:=optional;version="[1.10,2)",org.apache.t
+ ools.ant.util.java15;resolution:=optional;version="[1.10,2)",org.apac
+ he.tools.ant.util.optional;resolution:=optional;version="[1.10,2)",or
+ g.apache.tools.ant.util.regexp;resolution:=optional;version="[1.10,2)
+ ",org.apache.tools.bzip2;resolution:=optional;version="[1.10,2)",org.
+ apache.tools.mail;resolution:=optional;version="[1.10,2)",org.apache.
+ tools.tar;resolution:=optional;version="[1.10,2)",org.apache.tools.zi
+ p;resolution:=optional;version="[1.10,2)",org.apache.xalan.trace;reso
+ lution:=optional,org.apache.xalan.transformer;resolution:=optional,or
+ g.apache.xml.resolver;resolution:=optional,org.apache.xml.resolver.he
+ lpers;resolution:=optional,org.apache.xml.resolver.tools;resolution:=
+ optional,org.junit;resolution:=optional,org.junit.Suite;resolution:=o
+ ptional,org.junit.platform.engine;resolution:=optional,org.junit.plat
+ form.engine.discovery;resolution:=optional,org.junit.platform.engine.
+ reporting;resolution:=optional,org.junit.platform.engine.support.desc
+ riptor;resolution:=optional,org.junit.platform.launcher;resolution:=o
+ ptional,org.junit.platform.launcher.core;resolution:=optional,org.jun
+ it.platform.launcher.listeners;resolution:=optional,org.junit.rules;r
+ esolution:=optional,org.junit.runner;resolution:=optional,org.junit.r
+ unner.manipulation;resolution:=optional,org.junit.runner.notification
+ ;resolution:=optional,org.tukaani.xz;resolution:=optional,org.w3c.dom
+ ;resolution:=optional,org.xml.sax;resolution:=optional,org.xml.sax.he
+ lpers;resolution:=optional,sun.rmi.rmic;resolution:=optional,sun.tool
+ s.javac;resolution:=optional,sun.tools.native2ascii;resolution:=optio
+ nal,weblogic;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Export-Package: org.apache.tools.ant;version="1.10.7";uses:="junit.fra
+ mework,org.apache.tools.ant.input,org.apache.tools.ant.launch,org.apa
+ che.tools.ant.property,org.apache.tools.ant.taskdefs.condition,org.ap
+ ache.tools.ant.types,org.apache.tools.ant.types.selectors,org.junit.r
+ ules,org.xml.sax",org.apache.tools.ant.attribute;version="1.10.7";use
+ s:="org.apache.tools.ant",org.apache.tools.ant.dispatch;version="1.10
+ .7";uses:="org.apache.tools.ant",org.apache.tools.ant.filters;version
+ ="1.10.7";uses:="org.apache.tools.ant,org.apache.tools.ant.types,org.
+ apache.tools.ant.util",org.apache.tools.ant.filters.util;version="1.1
+ 0.7";uses:="org.apache.tools.ant,org.apache.tools.ant.types",org.apac
+ he.tools.ant.helper;version="1.10.7";uses:="org.apache.tools.ant,org.
+ apache.tools.ant.types,org.xml.sax,org.xml.sax.helpers",org.apache.to
+ ols.ant.input;version="1.10.7";uses:="org.apache.tools.ant",org.apach
+ e.tools.ant.launch;version="1.10.7",org.apache.tools.ant.listener;ver
+ sion="1.10.7";uses:="org.apache.tools.ant",org.apache.tools.ant.loade
+ r;version="1.10.7";uses:="org.apache.tools.ant,org.apache.tools.ant.t
+ ypes",org.apache.tools.ant.property;version="1.10.7";uses:="org.apach
+ e.tools.ant",org.apache.tools.ant.taskdefs;version="1.10.7";uses:="ja
+ vax.xml.namespace,org.apache.tools.ant,org.apache.tools.ant.filters,o
+ rg.apache.tools.ant.taskdefs.compilers,org.apache.tools.ant.taskdefs.
+ condition,org.apache.tools.ant.taskdefs.email,org.apache.tools.ant.ta
+ skdefs.launcher,org.apache.tools.ant.taskdefs.rmic,org.apache.tools.a
+ nt.types,org.apache.tools.ant.types.resources,org.apache.tools.ant.ty
+ pes.resources.selectors,org.apache.tools.ant.types.selectors,org.apac
+ he.tools.ant.types.selectors.modifiedselector,org.apache.tools.ant.ty
+ pes.spi,org.apache.tools.ant.util,org.apache.tools.ant.util.facade,or
+ g.apache.tools.tar,org.apache.tools.zip,org.w3c.dom,org.xml.sax",org.
+ apache.tools.ant.taskdefs.compilers;version="1.10.7";uses:="org.apach
+ e.tools.ant,org.apache.tools.ant.taskdefs,org.apache.tools.ant.types"
+ ,org.apache.tools.ant.taskdefs.condition;version="1.10.7";uses:="org.
+ apache.tools.ant,org.apache.tools.ant.taskdefs,org.apache.tools.ant.t
+ ypes,org.apache.tools.ant.types.selectors",org.apache.tools.ant.taskd
+ efs.cvslib;version="1.10.7";uses:="org.apache.tools.ant,org.apache.to
+ ols.ant.taskdefs,org.apache.tools.ant.types",org.apache.tools.ant.tas
+ kdefs.email;version="1.10.7";uses:="org.apache.tools.ant,org.apache.t
+ ools.ant.types",org.apache.tools.ant.taskdefs.launcher;version="1.10.
+ 7";uses:="org.apache.tools.ant,org.apache.tools.ant.util",org.apache.
+ tools.ant.taskdefs.modules;version="1.10.7";uses:="org.apache.tools.a
+ nt,org.apache.tools.ant.types",org.apache.tools.ant.taskdefs.optional
+ ;version="1.10.7";uses:="javax.xml.transform,org.apache.tools.ant,org
+ .apache.tools.ant.taskdefs,org.apache.tools.ant.taskdefs.optional.jav
+ ah,org.apache.tools.ant.taskdefs.optional.native2ascii,org.apache.too
+ ls.ant.types,org.apache.tools.ant.util,org.apache.tools.ant.util.faca
+ de,org.junit,org.junit.rules,org.w3c.dom,org.xml.sax",org.apache.tool
+ s.ant.taskdefs.optional.ccm;version="1.10.7";uses:="org.apache.tools.
+ ant,org.apache.tools.ant.taskdefs,org.apache.tools.ant.types",org.apa
+ che.tools.ant.taskdefs.optional.clearcase;version="1.10.7";uses:="org
+ .apache.tools.ant,org.apache.tools.ant.types",org.apache.tools.ant.ta
+ skdefs.optional.depend;version="1.10.7";uses:="org.apache.tools.ant,o
+ rg.apache.tools.ant.taskdefs,org.apache.tools.ant.types,org.apache.to
+ ols.ant.util.depend",org.apache.tools.ant.taskdefs.optional.depend.co
+ nstantpool;version="1.10.7",org.apache.tools.ant.taskdefs.optional.ej
+ b;version="1.10.7";uses:="javax.xml.parsers,org.apache.tools.ant,org.
+ apache.tools.ant.taskdefs,org.apache.tools.ant.types,org.xml.sax",org
+ .apache.tools.ant.taskdefs.optional.extension;version="1.10.7";uses:=
+ "org.apache.tools.ant,org.apache.tools.ant.taskdefs.optional.extensio
+ n.resolvers,org.apache.tools.ant.types,org.apache.tools.ant.util",org
+ .apache.tools.ant.taskdefs.optional.extension.resolvers;version="1.10
+ .7";uses:="org.apache.tools.ant,org.apache.tools.ant.taskdefs.optiona
+ l.extension",org.apache.tools.ant.taskdefs.optional.i18n;version="1.1
+ 0.7";uses:="org.apache.tools.ant,org.apache.tools.ant.taskdefs,org.ap
+ ache.tools.ant.types",org.apache.tools.ant.taskdefs.optional.image;ve
+ rsion="1.10.7";uses:="org.apache.tools.ant,org.apache.tools.ant.taskd
+ efs,org.apache.tools.ant.types,org.apache.tools.ant.types.optional.im
+ age,org.apache.tools.ant.types.optional.imageio,org.apache.tools.ant.
+ util",org.apache.tools.ant.taskdefs.optional.j2ee;version="1.10.7";us
+ es:="org.apache.tools.ant,org.apache.tools.ant.taskdefs,org.apache.to
+ ols.ant.types",org.apache.tools.ant.taskdefs.optional.javacc;version=
+ "1.10.7";uses:="org.apache.tools.ant,org.apache.tools.ant.types",org.
+ apache.tools.ant.taskdefs.optional.javah;version="1.10.7";uses:="org.
+ apache.tools.ant,org.apache.tools.ant.taskdefs.optional,org.apache.to
+ ols.ant.types",org.apache.tools.ant.taskdefs.optional.jdepend;version
+ ="1.10.7";uses:="org.apache.tools.ant,org.apache.tools.ant.taskdefs,o
+ rg.apache.tools.ant.types",org.apache.tools.ant.taskdefs.optional.jli
+ nk;version="1.10.7";uses:="org.apache.tools.ant,org.apache.tools.ant.
+ taskdefs,org.apache.tools.ant.types",org.apache.tools.ant.taskdefs.op
+ tional.jsp;version="1.10.7";uses:="org.apache.tools.ant,org.apache.to
+ ols.ant.taskdefs,org.apache.tools.ant.types",org.apache.tools.ant.tas
+ kdefs.optional.jsp.compilers;version="1.10.7";uses:="org.apache.tools
+ .ant,org.apache.tools.ant.taskdefs.optional.jsp,org.apache.tools.ant.
+ types",org.apache.tools.ant.taskdefs.optional.junit;version="1.10.7";
+ uses:="javax.xml.parsers,junit.framework,org.apache.tools.ant,org.apa
+ che.tools.ant.taskdefs,org.apache.tools.ant.types,org.junit.runner,or
+ g.junit.runner.notification,org.w3c.dom",org.apache.tools.ant.taskdef
+ s.optional.junit.xsl;version="1.10.7",org.apache.tools.ant.taskdefs.o
+ ptional.junitlauncher;version="1.10.7";uses:="org.apache.tools.ant,or
+ g.apache.tools.ant.taskdefs.optional.junitlauncher.confined,org.junit
+ .platform.launcher",org.apache.tools.ant.taskdefs.optional.junitlaunc
+ her.confined;version="1.10.7";uses:="javax.xml.stream,org.apache.tool
+ s.ant,org.apache.tools.ant.types",org.apache.tools.ant.taskdefs.optio
+ nal.native2ascii;version="1.10.7";uses:="org.apache.tools.ant,org.apa
+ che.tools.ant.taskdefs.optional,org.apache.tools.ant.types",org.apach
+ e.tools.ant.taskdefs.optional.net;version="1.10.7";uses:="org.apache.
+ commons.net.bsd,org.apache.commons.net.ftp,org.apache.commons.net.tel
+ net,org.apache.tools.ant,org.apache.tools.ant.taskdefs.email,org.apac
+ he.tools.ant.types,org.apache.tools.ant.util",org.apache.tools.ant.ta
+ skdefs.optional.pvcs;version="1.10.7";uses:="org.apache.tools.ant,org
+ .apache.tools.ant.taskdefs,org.apache.tools.ant.types",org.apache.too
+ ls.ant.taskdefs.optional.script;version="1.10.7";uses:="org.apache.to
+ ols.ant,org.apache.tools.ant.taskdefs,org.apache.tools.ant.types",org
+ .apache.tools.ant.taskdefs.optional.sos;version="1.10.7";uses:="org.a
+ pache.tools.ant,org.apache.tools.ant.types",org.apache.tools.ant.task
+ defs.optional.sound;version="1.10.7";uses:="javax.sound.sampled,org.a
+ pache.tools.ant",org.apache.tools.ant.taskdefs.optional.splash;versio
+ n="1.10.7";uses:="org.apache.tools.ant",org.apache.tools.ant.taskdefs
+ .optional.ssh;version="1.10.7";uses:="com.jcraft.jsch,org.apache.tool
+ s.ant,org.apache.tools.ant.types",org.apache.tools.ant.taskdefs.optio
+ nal.testing;version="1.10.7";uses:="org.apache.tools.ant,org.apache.t
+ ools.ant.taskdefs,org.apache.tools.ant.taskdefs.condition",org.apache
+ .tools.ant.taskdefs.optional.unix;version="1.10.7";uses:="org.apache.
+ tools.ant,org.apache.tools.ant.dispatch,org.apache.tools.ant.taskdefs
+ ,org.apache.tools.ant.types",org.apache.tools.ant.taskdefs.optional.v
+ ss;version="1.10.7";uses:="org.apache.tools.ant,org.apache.tools.ant.
+ types",org.apache.tools.ant.taskdefs.optional.windows;version="1.10.7
+ ";uses:="org.apache.tools.ant.taskdefs",org.apache.tools.ant.taskdefs
+ .optional.xz;version="1.10.7";uses:="org.apache.tools.ant.taskdefs",o
+ rg.apache.tools.ant.taskdefs.rmic;version="1.10.7";uses:="org.apache.
+ tools.ant,org.apache.tools.ant.taskdefs,org.apache.tools.ant.types,or
+ g.apache.tools.ant.util",org.apache.tools.ant.types;version="1.10.7";
+ uses:="javax.xml.transform,org.apache.tools.ant,org.apache.tools.ant.
+ filters,org.apache.tools.ant.taskdefs,org.apache.tools.ant.types.sele
+ ctors,org.apache.tools.ant.types.selectors.modifiedselector,org.apach
+ e.tools.ant.util,org.apache.tools.ant.util.regexp,org.junit,org.junit
+ .rules,org.xml.sax",org.apache.tools.ant.types.conditions;version="1.
+ 10.7",org.apache.tools.ant.types.mappers;version="1.10.7";uses:="org.
+ apache.tools.ant.types,org.apache.tools.ant.util",org.apache.tools.an
+ t.types.optional;version="1.10.7";uses:="org.apache.tools.ant,org.apa
+ che.tools.ant.filters,org.apache.tools.ant.taskdefs.condition,org.apa
+ che.tools.ant.types,org.apache.tools.ant.types.selectors,org.apache.t
+ ools.ant.util",org.apache.tools.ant.types.optional.depend;version="1.
+ 10.7";uses:="org.apache.tools.ant,org.apache.tools.ant.types",org.apa
+ che.tools.ant.types.optional.image;version="1.10.7";uses:="javax.medi
+ a.jai,org.apache.tools.ant.types",org.apache.tools.ant.types.optional
+ .imageio;version="1.10.7";uses:="org.apache.tools.ant.types",org.apac
+ he.tools.ant.types.optional.xz;version="1.10.7";uses:="org.apache.too
+ ls.ant.types,org.apache.tools.ant.types.resources",org.apache.tools.a
+ nt.types.resolver;version="1.10.7";uses:="org.apache.tools.ant.types,
+ org.apache.xml.resolver,org.apache.xml.resolver.tools",org.apache.too
+ ls.ant.types.resources;version="1.10.7";uses:="org.apache.tools.ant,o
+ rg.apache.tools.ant.types,org.apache.tools.ant.types.resources.compar
+ ators,org.apache.tools.ant.types.resources.selectors,org.apache.tools
+ .ant.types.selectors,org.apache.tools.ant.util,org.apache.tools.tar,o
+ rg.apache.tools.zip",org.apache.tools.ant.types.resources.comparators
+ ;version="1.10.7";uses:="org.apache.tools.ant,org.apache.tools.ant.ty
+ pes",org.apache.tools.ant.types.resources.selectors;version="1.10.7";
+ uses:="org.apache.tools.ant,org.apache.tools.ant.types,org.apache.too
+ ls.ant.types.resources.comparators",org.apache.tools.ant.types.select
+ ors;version="1.10.7";uses:="org.apache.tools.ant,org.apache.tools.ant
+ .types,org.apache.tools.ant.types.resources.selectors,org.apache.tool
+ s.ant.types.selectors.modifiedselector,org.apache.tools.ant.util",org
+ .apache.tools.ant.types.selectors.modifiedselector;version="1.10.7";u
+ ses:="org.apache.tools.ant,org.apache.tools.ant.types,org.apache.tool
+ s.ant.types.resources.selectors,org.apache.tools.ant.types.selectors"
+ ,org.apache.tools.ant.types.spi;version="1.10.7";uses:="org.apache.to
+ ols.ant",org.apache.tools.ant.util;version="1.10.7";uses:="javax.xml.
+ parsers,org.apache.tools.ant,org.apache.tools.ant.types,org.apache.to
+ ols.ant.types.resources,org.apache.tools.ant.types.resources.selector
+ s,org.apache.tools.ant.util.optional,org.apache.tools.ant.util.regexp
+ ,org.w3c.dom,org.xml.sax",org.apache.tools.ant.util.depend;version="1
+ .10.7";uses:="org.apache.tools.ant.types",org.apache.tools.ant.util.d
+ epend.bcel;version="1.10.7";uses:="org.apache.bcel.classfile,org.apac
+ he.tools.ant.util.depend",org.apache.tools.ant.util.facade;version="1
+ .10.7";uses:="org.apache.tools.ant,org.apache.tools.ant.types",org.ap
+ ache.tools.ant.util.java15;version="1.10.7",org.apache.tools.ant.util
+ .optional;version="1.10.7";uses:="org.apache.tools.ant,org.apache.too
+ ls.ant.util",org.apache.tools.ant.util.regexp;version="1.10.7";uses:=
+ "org.apache.oro.text.regex,org.apache.regexp,org.apache.tools.ant,org
+ .junit",org.apache.tools.bzip2;version="1.10.7",org.apache.tools.mail
+ ;version="1.10.7",org.apache.tools.tar;version="1.10.7";uses:="org.ap
+ ache.tools.zip",org.apache.tools.zip;version="1.10.7"
+Bundle-Name: %bundleName
+Bundle-Version: 1.10.7.v20190926-0324
+Bundle-ClassPath: lib/ant-antlr.jar,lib/ant-apache-bcel.jar,lib/ant-ap
+ ache-bsf.jar,lib/ant-apache-log4j.jar,lib/ant-apache-oro.jar,lib/ant-
+ apache-regexp.jar,lib/ant-apache-resolver.jar,lib/ant-apache-xalan2.j
+ ar,lib/ant-commons-logging.jar,lib/ant-commons-net.jar,lib/ant-imagei
+ o.jar,lib/ant-jai.jar,lib/ant-javamail.jar,lib/ant-jdepend.jar,lib/an
+ t-jmf.jar,lib/ant-jsch.jar,lib/ant-junit.jar,lib/ant-junit4.jar,lib/a
+ nt-junitlauncher.jar,lib/ant-launcher.jar,lib/ant-netrexx.jar,lib/ant
+ -swing.jar,lib/ant-testutil.jar,lib/ant-xz.jar,lib/ant.jar
+Created-By: Eclipse Bundle Recipe Maven Plug-in
+Build-Jdk: 1.8.0_212
+Eclipse-BundleShape: dir
+
+Name: lib/ant-xz.jar
+SHA-256-Digest: vRU8mo4F4C4m/pDljGRDbKnTrXHvgol7ZOJrV5fQFgI=
+
+Name: etc/mmetrics-frames.xsl
+SHA-256-Digest: Fm3UYCaF12IOrMM3/PdXnBOzh7nDdLqH0MVGpgQaHR0=
+
+Name: about_files/SAX-LICENSE.html
+SHA-256-Digest: FQRgO0nRSZCPug2AudAK07PSB4DJJspXsT1adPMxeuo=
+
+Name: lib/ant-jdepend.jar
+SHA-256-Digest: SikjH94t4LTJlseFbaZBkxYeuHiVifAynU704ej0EVY=
+
+Name: lib/ant.jar
+SHA-256-Digest: 8CsNa/gH5PEnFW8QVCBGOPpxiwJWywzMRHWHOUm6ucU=
+
+Name: etc/checkstyle/checkstyle-frames.xsl
+SHA-256-Digest: 4LHldaUPDJcmaaD6eX8lQSPjttUWmwAkPJp8FMQE78Q=
+
+Name: lib/ant-junit4.jar
+SHA-256-Digest: R75SVjqgy07w9sIyhl7JHSJlNxGub93qhKQPd1pd4QI=
+
+Name: lib/ant-antlr.jar
+SHA-256-Digest: LbTHk6KVZgpkN62CKQ7O/xur+Z0cZ5WF5nfryQpUgLA=
+
+Name: etc/coverage-frames.xsl
+SHA-256-Digest: XJuTLcz2Az/58XoBjg3tzvi7oz8DJ+lbT6Hx9Qe68qE=
+
+Name: lib/ant-apache-regexp.jar
+SHA-256-Digest: XRTK5LBROxDpS9Ta1ToOTjv+9gO6FXxoU49LbM3WXg0=
+
+Name: etc/junit-frames.xsl
+SHA-256-Digest: BqHzjj0HKIS277m6PzwIjvFW5dc1LLu1aJEFcpygZ30=
+
+Name: lib/ant-apache-log4j.jar
+SHA-256-Digest: fvhYo87rbUxXtdhiFj+rItPp5os43WB9R4/dILqc3tE=
+
+Name: lib/ant-launcher.jar
+SHA-256-Digest: ATr1QsPuy/8pkM49Cwa61f4p7E/qOpG/Tz5YVFna4gw=
+
+Name: bin/antRun.bat
+SHA-256-Digest: xkGH0/tUZrF4/tFjIs0zaMyCMh7hqGnU7OGeLsZcV0o=
+
+Name: etc/checkstyle/checkstyle-text.xsl
+SHA-256-Digest: I67faSjTSEo32hhJwmMbkSlYnVyo6VtEt6Z/g8nCIlg=
+
+Name: lib/ant-jai.jar
+SHA-256-Digest: GQWeCWuUxsVWm6KlAaFF0Q4w/kvoc2SQVugx5SOPBc0=
+
+Name: about_files/LICENSE
+SHA-256-Digest: bWLR3VL5MoZdbx4okg1T0Kb5cw72uOAsSNmfRw4WCg0=
+
+Name: lib/ant-apache-xalan2.jar
+SHA-256-Digest: 40PINpqwlIO3DX0UlE4/S2LLq90YTAUQgRYorgJ6L9o=
+
+Name: bin/antenv.cmd
+SHA-256-Digest: Z0I1+GsgcrFSAITUxl6xhbc6y6W411eBs5lBpNf+8UE=
+
+Name: lib/ant-junit.jar
+SHA-256-Digest: OPbVTLYI0xF+0J1MBlnowQO2Xc/uOjZqKKTGvxhxQwQ=
+
+Name: lib/ant-junitlauncher.jar
+SHA-256-Digest: 00LOAZbCpiTBHC/FLRCazHAMUeiGUEqFHPuvjx2V4/Q=
+
+Name: lib/ant-commons-logging.jar
+SHA-256-Digest: W0H9HzME2TEvFL6cFgk9q0sbDyjfEiohunK/UJVmmDQ=
+
+Name: lib/ant-imageio.jar
+SHA-256-Digest: bhKUwheI0kvqwRMNovzB0EQbwFgi/Y1fWd+E5hnxjpU=
+
+Name: about_files/THE_APACHE_SOFTWARE_LICENSE__VERSION_2.0.txt
+SHA-256-Digest: z8d0m5b2O9McPEK1xHG/dWgUBT6EfBDz6wA0F7xSPTA=
+
+Name: bin/antRun.pl
+SHA-256-Digest: bYeeMLKnp9LXHDq6W0NtEH6pA6wCvqserpK6zS2gu3c=
+
+Name: lib/ant-apache-resolver.jar
+SHA-256-Digest: mDMqX2s9sbDA3siCbHnO46JL47sqN7EmnKTHvxx7jYI=
+
+Name: bin/ant
+SHA-256-Digest: xOoMjLHgQ8Aw7AAS9+gOcKI8GQ5UA9pHGG4imvyVTHc=
+
+Name: lib/ant-netrexx.jar
+SHA-256-Digest: gni6MEb77hQXjEYpzthTIXfBd0K1MhyS79xyBz0lIsk=
+
+Name: etc/checkstyle/checkstyle-xdoc.xsl
+SHA-256-Digest: UgpcbfyNqjzA7gAy1pg9gRRg+KP0QPV9h2IuJaIpaSg=
+
+Name: etc/log.xsl
+SHA-256-Digest: +hCVv735ErPnAaKTmxsLIUcfq+qaUcvdjdSDPSLV0JU=
+
+Name: OSGI-INF/l10n/bundle.properties
+SHA-256-Digest: x7cEMojylK91VoPCj5D/qXFeGFoHnvUj+Tp8su7fgMk=
+
+Name: lib/ant-swing.jar
+SHA-256-Digest: DiVktrOzXowE+k45f7aHMT2PRihuya6AH9qeq8NpMUI=
+
+Name: lib/ant-apache-bsf.jar
+SHA-256-Digest: KCVgFTxcE7FmzeFsYMvNOHTjsQbYNWBau/1ty/kfM8c=
+
+Name: about_files/DOM-LICENSE.html
+SHA-256-Digest: 0eDSRxw93sR6pC5tpA0nM9Z4SgrpIeo2p/xuvXYcJtY=
+
+Name: bin/complete-ant-cmd.pl
+SHA-256-Digest: IfmsE1+q2sy1JJmEV/ZBRtN56PSLcNCEHZ56SCW1+mI=
+
+Name: lib/ant-testutil.jar
+SHA-256-Digest: AU3OUrsgZfvxGuW9dkGS+QjoN8KPQJSraStsynx1BIA=
+
+Name: lib/ant-jsch.jar
+SHA-256-Digest: gT3k3pJc9tA71aHwO1yMK09HAwnVmrR0MTCvekXRaZA=
+
+Name: bin/lcp.bat
+SHA-256-Digest: YR1deDg+FbTjSX2DaRYKCvITs11d77nIZ7yF2skweFM=
+
+Name: etc/jdepend-frames.xsl
+SHA-256-Digest: 2CdM4ZWuocKg7QX3dirzQRAJTUEP0xgCxR2CA8cOiV0=
+
+Name: bin/envset.cmd
+SHA-256-Digest: KVbMd6SY/2/XXqGuBdpdw76R2WoJWO1CniZBhoaDvCg=
+
+Name: etc/maudit-frames.xsl
+SHA-256-Digest: DszOvNdDTNeLxmlnibHmq4scXo3ZCNp0AD8dBjIN/S0=
+
+Name: bin/ant.bat
+SHA-256-Digest: dpWQE/7unaAYFds6Eztrw1Sk1AYhUiD2l6UXrFRf0Tg=
+
+Name: bin/antRun
+SHA-256-Digest: +2DrIADv2b6qKVJ5QZuk4EtXHmSHSmJL5rKmSLG3a1s=
+
+Name: etc/changelog.xsl
+SHA-256-Digest: SIZxF0399lrg+lftlGqO6VLEb4g557exXpIChLBJjFQ=
+
+Name: lib/ant-commons-net.jar
+SHA-256-Digest: q9vwezP986WIwIq1W25LrDsnI56Oa//jckvxcU4Tlno=
+
+Name: etc/jdepend.xsl
+SHA-256-Digest: VM06y+2zLs08zOgPl/lS3BU7+zN32GUMBg1t3mMuTLY=
+
+Name: etc/checkstyle/checkstyle-frames-sortby-check.xsl
+SHA-256-Digest: UMF5KHR5djTUf4j3mGmLrjCElCB7SMbu/KYWmldUzxU=
+
+Name: about.html
+SHA-256-Digest: xWedo3tSErFkqOrPP0G78ibcLZNAgwfVqshGkH42oME=
+
+Name: etc/junit-noframes.xsl
+SHA-256-Digest: tEWzbRpWKWUV0YA0Y7FZbjE/uOq6o7MWtSN2l9buGAk=
+
+Name: lib/ant-apache-oro.jar
+SHA-256-Digest: miHr2ZPN0dzBeFC6ylZixmr9nCBiJi+lrGFCRnChGIU=
+
+Name: lib/ant-javamail.jar
+SHA-256-Digest: 3TSPo/zfnkezzV2fk5SJDoGem7ugqEXhUbltEF30bdc=
+
+Name: lib/ant-jmf.jar
+SHA-256-Digest: aF5CscGwXnPROSTmCraaRhcyC03FYzUYzSVFmr6RYSA=
+
+Name: about_files/NOTICE
+SHA-256-Digest: g5LRdgw1SYTNx98OU8b+0g3gfuww/tsGZk2OR197Zow=
+
+Name: bin/runrc.cmd
+SHA-256-Digest: cAoXSWo3dKcLxPXN1C5eMGPKuOwNVzje1JKNMAyY96Y=
+
+Name: bin/runant.py
+SHA-256-Digest: YvIJ0GWtMbyGjDFqSc51ibFPyceBEJ3GfEGNlBuyC3c=
+
+Name: etc/junit-frames-xalan1.xsl
+SHA-256-Digest: xuL5/mq8Ia67hrPYo2rh7F8W5je82lnbpG9G1RJtxzg=
+
+Name: lib/ant-apache-bcel.jar
+SHA-256-Digest: k1606RbMoer/soNNbT71E0rsbSlRG5M8WMCbIIG5WC0=
+
+Name: bin/runant.pl
+SHA-256-Digest: XmPRutHcRMckrKa6o3T5JSmEnfiaq5dbQdF3+gyk4Ow=
+
+Name: etc/ant-bootstrap.jar
+SHA-256-Digest: p4UxINBxsk1hO98KIrlk91yJEkFzebOG/ksKSnzvgt4=
+
+Name: etc/tagdiff.xsl
+SHA-256-Digest: 34vUCgRQkjys7BtHYat2YjjyAOqxc7uE5vhy+dcQnpU=
+
+Name: META-INF/maven/org.eclipse.orbit.bundles/org.apache.ant/pom.xml
+SHA-256-Digest: DqpelxB3MAuWqAeDimJNbz99U7cbiRsQPYF5AA4wkaQ=
+
+Name: META-INF/maven/org.eclipse.orbit.bundles/org.apache.ant/pom.prop
+ erties
+SHA-256-Digest: EmXW+eDJZTz+BdiAPw1K2cN6sj61/a6Lo3mTJFp3Pt0=
+
+Name: bin/ant.cmd
+SHA-256-Digest: 9zssv7nypEK9pJ7m91/OPWXmxus4nWKQgEznQFqY1sI=
+
