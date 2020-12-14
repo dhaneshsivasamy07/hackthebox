@@ -1,0 +1,20 @@
+Manifest-Version: 1.0
+Built-By: default
+Created-By: Apache Maven 3.6.3
+Build-Jdk: 1.8.0_202
+
+Name: about.html
+SHA-256-Digest: POqrJ/GkaB7JNd67dYi/zeR71pOPSE4Qh2mcxPGTRmQ=
+
+Name: epl-v10.html
+SHA-256-Digest: mpbQ2vmKpvtKpTDTmcdCxmEhsL2uSh9/+iLSE14d9/0=
+
+Name: feature.xml
+SHA-256-Digest: qejPj6V4aleg2Ip6/F8k6THZcY8YXWCxabG74vQ90Jg=
+
+Name: feature.properties
+SHA-256-Digest: eGjAfD9rKYnzd+G0T088WLgEFDlavOYhpQEeEIbgqxI=
+
+Name: license.html
+SHA-256-Digest: X315zLynvdLZ4DaYSopgxruQUUEadA3FOPNviC+YO24=
+

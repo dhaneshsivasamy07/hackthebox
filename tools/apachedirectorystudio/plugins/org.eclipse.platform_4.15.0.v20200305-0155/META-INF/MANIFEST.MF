@@ -1,0 +1,227 @@
+Manifest-Version: 1.0
+Automatic-Module-Name: org.eclipse.platform
+Bundle-SymbolicName: org.eclipse.platform; singleton:=true
+Require-Bundle: org.eclipse.ui.intro;bundle-version="[3.2.0,4.0.0)",or
+ g.eclipse.ui.cheatsheets;bundle-version="[3.2.0,4.0.0)";resolution:=o
+ ptional,org.eclipse.ui.forms;bundle-version="[3.2.0,4.0.0)";resolutio
+ n:=optional,org.eclipse.ui;bundle-version="[3.2.0,4.0.0)";resolution:
+ =optional,org.eclipse.core.runtime;bundle-version="[3.2.0,4.0.0)"
+Bundle-ManifestVersion: 2
+Bundle-RequiredExecutionEnvironment: JavaSE-1.8
+Eclipse-SourceReferences: scm:git:git://git.eclipse.org/gitroot/platfo
+ rm/eclipse.platform.git;path="platform/org.eclipse.platform";tag="I20
+ 200305-0155";commitId=d9b6fdbb488f92f424484527e9ef40c8b39c7283
+Bundle-Vendor: %providerName
+Export-Package: org.eclipse.platform.internal;x-internal:=true
+Bundle-Name: %pluginName
+Bundle-Version: 4.15.0.v20200305-0155
+Bundle-ClassPath: platform.jar
+Bundle-Localization: plugin
+Build-Jdk-Spec: 11
+Created-By: Maven Archiver 3.5.0
+Eclipse-BundleShape: dir
+
+Name: macosx_narrow_book.css
+SHA-256-Digest: gZziIsPy1pRRJ0Cv2PcqMrYFgPQFrr/F1qSvd6TunjM=
+
+Name: narrow_book.css
+SHA-256-Digest: RzEH4ZWytfeRPm/LFJ8uXrL6xEs0MxiWuJMJUk2AZmM=
+
+Name: about.properties
+SHA-256-Digest: YHUWp8+fzgdYUhnQPZZzQEPCm/TmvbEPRdIPZJUeptk=
+
+Name: plugin.xml
+SHA-256-Digest: c+3MjbRGHszfSw0mgwwvRMmEa8mJtOxq5kmEXYmHSJA=
+
+Name: intro/whatsnewExtensionContent3.xml
+SHA-256-Digest: r3G83G7vNDCaqDv86ULDvgav8RRnvZstcYLiPZ3HM+s=
+
+Name: eclipse64.png
+SHA-256-Digest: xdsV03c6VcmEj9SXvd7L9knddOV/17XV2ZMQjr3g9uI=
+
+Name: images/topiclabel/arrow.gif
+SHA-256-Digest: z5CFoB326O0U6AJfyJWKfeQddRFEAMab8s7dIMmHxtY=
+
+Name: helpData.xml
+SHA-256-Digest: KhrsA0KEFupnGg4+iUF7QZohnxID5wZyu/TMdV3M78g=
+
+Name: images/macTSFrame.png
+SHA-256-Digest: M3rItx5OQNbjSEcf3s6v6r/fdjPHGVphm9pPXrrFjSo=
+
+Name: plugin_customization.properties
+SHA-256-Digest: +nVpNeajF88NHdlWUWk1e/eOazuPZvnbNYFdJ7+v1tw=
+
+Name: images/win7.png
+SHA-256-Digest: efoA3wIEengi95NOOq6cPcK5t8WWC17Imhd1pUg24EQ=
+
+Name: eclipse48.png
+SHA-256-Digest: EeE/qub7BEo/0PoxZcrXMRDFjT00qg3gLR8c9IVhVcU=
+
+Name: platform.jar
+SHA-256-Digest: RXzbWFgtyYRk86cRYr0NDroO5ycdfWwINPMvAHc8zXo=
+
+Name: images/topiclabel/wn_eclplatform48_hov.png
+SHA-256-Digest: qbOtm4QJdblNwl3x2KmaypbeiwQ6502zaP24cA9HTHs=
+
+Name: book.css
+SHA-256-Digest: YUlnHH6liEaVoJnn5LJqizxwATNYezn1E+411rCrU1I=
+
+Name: about.ini
+SHA-256-Digest: 5orRO3r5aScvPaDCOt5T382OIZx/STmAF/yhyc3EEmQ=
+
+Name: images/topiclabel/wn_updates48_hov.gif
+SHA-256-Digest: 28tXVA0qGTZnbKipZp/NKoNDS0CXQAcCNWXZEirOXvg=
+
+Name: eclipse22.png
+SHA-256-Digest: BU5gU4t7i3A82Mr5aCTIGjdaTj4g5+tmLcYLb8E4Hl0=
+
+Name: images/winClassicTSFrame.png
+SHA-256-Digest: nduBZyaRKYEb7AwQe9nJPmYKatjNn52v4PZJ/L6coqg=
+
+Name: plugin.properties
+SHA-256-Digest: MqFrAvJB7307PsaC9e7iSggk9b3O7CJpdv0dm9GicAM=
+
+Name: images/macHandle.png
+SHA-256-Digest: I51wAAj7d5ozFd/A/g3hcvUm08DCClt18pqd9LFQunA=
+
+Name: images/winXPOlive.png
+SHA-256-Digest: C2Ipw7OnxlmPOUHTn4Db7gPMWvdb4/4NAO0ib74Aef8=
+
+Name: images/macGrey.png
+SHA-256-Digest: +WWQ7VMreL1siXqXdo6NPT7M+IBBYQd7U3o8NYCZ09I=
+
+Name: plugin_customization.ini
+SHA-256-Digest: mxeiOgLa+ppx47uN4AClw45DJzAgIrthw9ADUM5+de4=
+
+Name: intro/css/overview.css
+SHA-256-Digest: o7zy1KaUnzs4s1/zvlOVp+nD6Jof4INEfYOlmCZ3sPA=
+
+Name: images/win7Handle.png
+SHA-256-Digest: Oh9SF8i5+kQ24zAMTJ4ui/Br4S+UTaQVVH0t5BaCDhc=
+
+Name: intro-eclipse.png
+SHA-256-Digest: tVA61FalUdc3NRe6eEABDuyh+57e6fQrJ7XrTXLIGsw=
+
+Name: intro/overviewExtensionContent.xml
+SHA-256-Digest: P7tftzinrX2P4iQs3emfM7Ukm65IJGnWhVQD79FCbAo=
+
+Name: eclipse1024.png
+SHA-256-Digest: ATWIArBryskrkyeo3x4sHn97swDwhV6QcJvksQ6tKVo=
+
+Name: images/topiclabel/wn_migrate48.gif
+SHA-256-Digest: PD+TQNKyM90b0HvBc0iJZGEQxR4Xj+Q7l8qSVyDUPhk=
+
+Name: images/gtkHandle.png
+SHA-256-Digest: bPbRP2bshPbwfMIAElSBK1iF0CsqLCp1l3hrfna6Xlo=
+
+Name: images/winClassicHandle.png
+SHA-256-Digest: C7ztgrKYAkqoYZG59II171ZDVFmke75zl/KHLbEYx7Q=
+
+Name: eclipse_lg.png
+SHA-256-Digest: x0U/SQWcWWonX2TQRV0utnuJr7lDuy6cAwVVstnU9aI=
+
+Name: intro/css/whatsnew.css
+SHA-256-Digest: mCoXm7+BkBmW4TwZUMRcUxhSFWkGjb+e4Zn3VS6/6yc=
+
+Name: images/win7TSFrame.png
+SHA-256-Digest: jJtgiMPzFQCTjyVZQQCiR5vbkbVN2RHEiHYENYqVEh4=
+
+Name: intro/whatsnewExtensionContent2.xml
+SHA-256-Digest: Q2qEJhw6czYg5RgBTWqPYM2dwjlRDKcTNDVSN9H+K6U=
+
+Name: intro/css/migrate.properties
+SHA-256-Digest: vTF81fHr4F/Na1xJnHjdixlUcBRXC9vbz/0mSVRwD40=
+
+Name: images/winXPBlue.png
+SHA-256-Digest: 7WOW/TPpt8xJyyfe2OUivBYJgj0cIoWySp0IJ+HrX6o=
+
+Name: eclipse24.png
+SHA-256-Digest: 5GRrjp/K1T0As911hsf01BQ2Wc4KNYt6GTlI1RcgwMI=
+
+Name: intro/migrateExtensionContent.xml
+SHA-256-Digest: 3b823fPCVNbB6MWoCAfrjJjtbRySx+scfT8wAVT/6+Q=
+
+Name: intro/whatsnewExtensionContent1.xml
+SHA-256-Digest: +Rm0nYQjcR7kF3FzUmWxUE5L+LohxeXLMuLonIgrV2s=
+
+Name: images/winXPHandle.png
+SHA-256-Digest: pBPfEx6cl7hFSpL7ZACUVpzIzbj7K1k+1PSQ83CdKQI=
+
+Name: LegacyIDE.e4xmi
+SHA-256-Digest: Crv2kW3bAmMh3aPMs6KDPkOKh7yDRr+iz82LzioNZsM=
+
+Name: intro/css/overview.properties
+SHA-256-Digest: AVrh7QyCNbn64WMp7sapEZyOc78cD62dti8hOlv3pzo=
+
+Name: splash.bmp
+SHA-256-Digest: K2XWw4RQV0xanHO65Ti50OWTUawW2D0swX2rygt3dR4=
+
+Name: images/gtkTSFrame.png
+SHA-256-Digest: RXrytpobfQof4fdvoZemowpbecapF5rGLHiphhETfgU=
+
+Name: about.mappings
+SHA-256-Digest: ZFT7Um8QQUoaFhi2Nc1PIC6/duND49uoC2EqsPHme6o=
+
+Name: images/topiclabel/ov_wbbasics48.gif
+SHA-256-Digest: wgFmMCvNZ0LjaiEQYbgQVNXtV/W2x2rpOp5rajpdbdE=
+
+Name: images/topiclabel/ov_wbbasics48_hov.gif
+SHA-256-Digest: nDp/eXLxg0sM3v8n4wANQEQf6gzLBV9g2T8X/MRx43o=
+
+Name: introData.xml
+SHA-256-Digest: zWK/QQPds/x87YBzfRixRlscISzVh/Pd5N8IqKZqWPw=
+
+Name: about.html
+SHA-256-Digest: 7mbS+ztMDS7S5/aYvJ7U49bPd/pcr0CtAylhJdsaxfA=
+
+Name: images/topiclabel/wn_eclcommunity48_hov.gif
+SHA-256-Digest: jkzBkvQpUq4nTZesXyGzF964ehmR2Wut4oCs5H4VjTo=
+
+Name: images/topiclabel/wn_eclcommunity48.gif
+SHA-256-Digest: 4oodctABenNHO/5i1n5keF4Q4hqOBImwVcklChldVxE=
+
+Name: images/winXPTSFrame.png
+SHA-256-Digest: DQuegTqQkj0+OOF8iUzPb9s8mINYAJCfmyZGEbm8E9I=
+
+Name: images/topiclabel/wn_eclplatform48.png
+SHA-256-Digest: f0nc8lh3awg4K/a6Era3KJuYQcnNVic63IQPVP3Bwg0=
+
+Name: intro/css/migrate.css
+SHA-256-Digest: eu94HmyvCAKSMl0NgLyjsUwwtcuXEsRb018wgh/Xims=
+
+Name: eclipse512.png
+SHA-256-Digest: YyG3CDYr/uBzhnU9g6E60fSghzMs3N8Pd8AD4pvdCis=
+
+Name: eclipse32.png
+SHA-256-Digest: ktA85ZDd0SYDxbcnnzVpnpATbdHzzTvB7x6Y8FkhCS4=
+
+Name: images/dragHandle.png
+SHA-256-Digest: 7wzoK/YKkvvCnGK7UkXKxj7t2YLYsYKAPSkmi2L3dU4=
+
+Name: images/topiclabel/wn_updates48.gif
+SHA-256-Digest: ANyoXVkytZc0O4ND7MfdHzSU9BDnXkhKJhY9+2kfU9I=
+
+Name: images/winXPBluTSFrame.png
+SHA-256-Digest: K9XImyMWZ18rxhm/lP4JhwbJDrd6AmBvuelzPMtmWuc=
+
+Name: images/winXPBluHandle.png
+SHA-256-Digest: ISk+95nFyPE60FJ86zTGJzs8KE7mXTEMyi2QH82Xyi0=
+
+Name: images/topiclabel/wn_migrate48_hov.gif
+SHA-256-Digest: f+HOGFo4dSiP5q8fMyEJljS5qIQvxGNQQolLZ+iMnCQ=
+
+Name: intro/css/whatsnew.properties
+SHA-256-Digest: CX0v8EiJ3wX3VmP5YhlVRrAd06Dl25o7YG6iuKevyH0=
+
+Name: eclipse128.png
+SHA-256-Digest: ZpwXRlfiPwImLHJbIROyDXy/Av64vUttwuvOnAozyvE=
+
+Name: eclipse16.png
+SHA-256-Digest: /J3RvmGlaYuPpn6gL7yrCohkIZ3gNNth3ztHKMGjcJ0=
+
+Name: eclipse256.png
+SHA-256-Digest: iXCC15nl7M4FmsBM4hb2MKrXaZEX+HSO2GFAVkBpaAo=
+
+Name: disabled_book.css
+SHA-256-Digest: vsyrQtXycATf7+qa6NVZEECUj3xrmFPX+JKaKqjBOrA=
+

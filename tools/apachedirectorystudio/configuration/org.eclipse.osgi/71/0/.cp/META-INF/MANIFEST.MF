@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bundle-License: https://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-SymbolicName: org.apache.directory.studio.rcp;singleton:=true
+Built-By: seelmann
+Require-Bundle: org.eclipse.core.filesystem,org.eclipse.core.net,org.e
+ clipse.core.resources,org.eclipse.core.runtime,org.eclipse.ui,org.ecl
+ ipse.ui.ide,org.eclipse.ui.intro
+Bnd-LastModified: 1586625240724
+Implementation-Vendor-Id: org.apache.directory.studio
+Specification-Title: Apache Directory Studio RCP
+Bundle-DocURL: https://www.apache.org/
+Eclipse-LazyStart: true
+Bundle-Name: Apache Directory Studio RCP
+Bundle-Localization: plugin
+Bundle-Activator: org.apache.directory.studio.Activator
+Build-Jdk-Spec: 1.8
+Implementation-Title: Apache Directory Studio RCP
+Implementation-Version: 2.0.0.v20200411-M15
+Bundle-ManifestVersion: 2
+Specification-Vendor: The Apache Software Foundation
+Bundle-Vendor: The Apache Software Foundation
+Tool: Bnd-3.5.0.201709291849
+Implementation-Vendor: The Apache Software Foundation
+Bundle-Version: 2.0.0.v20200411-M15
+Created-By: Apache Maven Bundle Plugin
+Build-Jdk: 1.8.0_242
+Implementation-URL: http://directory.apache.org/studio/org.apache.dire
+ ctory.studio.setup-parent/org.apache.directory.studio.plugins-parent/
+ org.apache.directory.studio.rcp/
+Specification-Version: 2.0.0.v20200411-M15
+

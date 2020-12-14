@@ -1,0 +1,119 @@
+/*
+  Licensed to the Apache Software Foundation (ASF) under one
+  or more contributor license agreements.  See the NOTICE file
+  distributed with this work for additional information
+  regarding copyright ownership.  The ASF licenses this file
+  to you under the Apache License, Version 2.0 (the
+  "License"); you may not use this file except in compliance
+  with the License.  You may obtain a copy of the License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+  Unless required by applicable law or agreed to in writing,
+  software distributed under the License is distributed on an
+  "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY
+  KIND, either express or implied.  See the License for the
+  specific language governing permissions and limitations
+  under the License.
+*/
+
+body 
+{
+	background-image : url("../graphics/rootpage/welcomebckgrd.png");
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-attachment: fixed;
+	background-color: #60a9cc;
+}
+
+#overview a
+{
+	position: absolute;
+	height: 95px;
+	width: 95px;
+	top: 50%;
+	left: 50%;
+	margin-left: -419px;
+	margin-top: -148px;
+	text-decoration: none;
+	z-index: 7;
+}
+
+#overview a:hover 
+{
+	width: 202px;
+	height: 148px;
+	margin-left: -427px;
+	margin-top: -149px;
+	background: url(../graphics/rootpage/overview_hover.png) no-repeat;
+	z-index: 8;
+}
+
+#whatsnew a
+{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	top: 50%;
+	left: 50%;
+	margin-left: -283px;
+	margin-top: 79px;
+	text-decoration: none;
+	z-index: 5;
+}
+
+#whatsnew a:hover 
+{
+	width: 202px;
+	height: 109px;
+	margin-left: -291px;
+	margin-top: 78px;
+	background: url(../graphics/rootpage/whatsnew_hover.png) no-repeat;
+	z-index: 6;
+}
+
+#webresources a
+{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	top: 50%;
+	left: 50%;
+	margin-left: -183px;
+	margin-top: 169px;
+	text-decoration: none;
+	z-index: 3;
+}
+
+#webresources a:hover 
+{
+	width: 202px;
+	height: 126px;
+	margin-left: -192px;
+	margin-top: 168px;
+	background: url(../graphics/rootpage/webresources_hover.png) no-repeat;
+	z-index: 4;
+}
+
+#workbench a
+{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	top: 50%;
+	left: 50%;
+	margin-left: 317px;
+	margin-top: 168px;
+	text-decoration: none;
+	z-index: 1;
+}
+
+#workbench a:hover 
+{
+	width: 202px;
+	height: 106px;
+	margin-left: 202px;
+	margin-top: 168px;
+	background: url(../graphics/rootpage/workbench_hover.png) no-repeat;
+	z-index: 2;
+}
