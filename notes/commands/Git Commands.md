@@ -25,6 +25,11 @@ git add .
 git commit -m "message"
 ```
 
+- View working tree status
+```bash
+git status
+```
+
 - Upload the git to github
 ```bash
 git push -u origin master --force
