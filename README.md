@@ -28,6 +28,7 @@ created & maintained by: **cyberwr3nch**
 | [Reverse Shells](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Reverse%20Shell.md) | Bash TCP, Bash UDP, Netcat, Telnet, Socat, Perl, Python, PHP, Ruby, SSL, Powershell, AWK, TCLsh, Java, LUA, MSF Reverse Shells(war, exe, elf, macho, aspx, jsp, python, sh, perl), Xterm, Magicbytes, Exiftool, Simple PHP oneliners |
 | [Web Attacks](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/WebAttacks.md) | sql-injection, login bruteforce( wfuzz, hydra) |
 | [Docker Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Docker%20Commands.md) | installation, building, pulling, updating, deleting, listing, cheatsheet |
+| [Git Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Git%20Commands.md) | clone, commit, push, pull, add, log, deleted file, checkout | 
 
 
 ### Tools <a name='tools'></a>
