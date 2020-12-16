@@ -17,6 +17,7 @@
 | ---- | --- | -------------- |
 | [Chisel](https://github.com/cyberwr3nch/hackthebox/tree/master/tools/chisel) | Used to forward a service running on a port in the victim machine | `./chisel server -p <port no.> --revserse` = on the attacker machine <br /> `./chisel client <attackerip:port> R:1234:127.0.0.1:1121` = Forwards the service running on port 1121 to the port 1234 on attackers machine |
 | [socat](https://github.com/craSH/socat) | Swiss Knife for Port forwarding | `socat TCP-LISTEN:8000,fork TCP:<machineIP>:<port>` = Listens on every connection to port `8000` and forwards to the `machineIP` and its `port` <br /> `socat TCP-LISTEN:9002,bind=<specific ip>,fork,reuseaddr TCP:localhost:<port>`|
+| [plink](https://github.com/Plotkine/pentesting/blob/master/Windows_privilege_escalation/Windows-privesc-tib3rius/plink.exe) | SSH Putty in CLI mode | `.\plink.exe <user@host> -R <remote port>:<localhost>:<local port>` .\plink.exe kali@10.10.14.32 -R 8888:127.0.0.1:8888 = port forwards the service running on victim machines port 8888 to the attacker machines 8888 |
 
 
 #### Directory Enumeration
