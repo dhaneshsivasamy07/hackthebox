@@ -10,6 +10,11 @@ git clone <repo link>
 git init
 ```
 
+- Update a repository
+```bash
+git pull
+```
+
 - Add the copied files to the git
 ```bash
 git add .
