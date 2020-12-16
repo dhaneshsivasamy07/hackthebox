@@ -12,6 +12,7 @@
 - [bashLoops](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#bash-loops)
 - [sed](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#sed)
 - [tr](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#tr)
+- [tail](#tail)
 
 
 #### ls
@@ -185,4 +186,19 @@ watch -n 1 'ls -la'
 ```bash
 # for loop that adds payload += in each line of the file
 for i in $(cat hexdata); do echo "payload += b'$i'"; done
+```
+
+#### Tail <a name='tail'></a>
+```bash
+# view only last line of the file
+tail -1 <file>
+
+# view last 7 lines from the file
+tail -n7 <file>
+
+# omit the line specified before
+tail +7 <file> # displays without the first seven lines of the file
+
+# update the contents of the file and provide the output
+tail -f <file>
 ```
