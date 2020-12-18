@@ -13,6 +13,7 @@
 - [sed](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#sed)
 - [tr](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Regular%20Commands.md#tr)
 - [tail](#tail)
+- [watch](#watch)
 
 
 #### ls
@@ -201,4 +202,19 @@ tail +7 <file> # displays without the first seven lines of the file
 
 # update the contents of the file and provide the output
 tail -f <file>
+```
+
+#### Watch <a name='watch'></a>
+```bash
+# repeat executing the command
+watch <command>
+ 
+# execute the commands in specific intervals
+watch -n <seconds> <command>
+
+# highlight the differences in each execution ## Thanks copycookie.com 
+watch -n <seconds> -d <command> 
+
+# exit on changes
+watch -g <command>
 ```
