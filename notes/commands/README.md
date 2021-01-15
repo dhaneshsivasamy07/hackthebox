@@ -14,3 +14,4 @@
 | [Web Attacks](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/WebAttacks.md) | sql-injection, login bruteforce( wfuzz, hydra) |
 | [Docker Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Docker%20Commands.md) | installation, building, pulling, updating, deleting, listing, cheatsheet |
 | [Git Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Git%20Commands.md) | clone, commit, push, pull, add, log, deleted file, checkout | 
+| [Pivoting](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Pivoting.md) | POST Exploitation, Pivoting, Chisel |
