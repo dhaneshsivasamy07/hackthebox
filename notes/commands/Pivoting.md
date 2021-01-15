@@ -1,7 +1,8 @@
 ### Network Pivoting
 
-![](https://miro.medium.com/max/700/1*exRPwGYJpGv6eESldShwzQ.png)
-<p align="center">Image from Vickie Li's <a href="https://medium.com/swlh/proxying-like-a-pro-cccdc177b081">post</a></p>
+<p align="center">
+<img src="https://miro.medium.com/max/700/1*exRPwGYJpGv6eESldShwzQ.png"/><br />
+Image from Vickie Li's <a href="https://medium.com/swlh/proxying-like-a-pro-cccdc177b081">post</a></p>
 
 **Summary:**
   - Network pivoting is the process of accessing an internal machine with the help of the compromised machine.
@@ -49,8 +50,9 @@ socks5 127.0.0.1 1080
 kali -> proxychains:1080 -> compromised_machine:1080 -> request for accessing from internal_machine -> internal_machine:80
 ```
 
-![](https://github.com/cyberwr3nch/hackthebox/blob/master/scripts/files/Pivoting.jpg)
-<p align="center">Image by <a href="https://github.com/cyberwr3nch">cyberwr3nch</a></p>
+<p align="center">
+<img src="https://github.com/cyberwr3nch/hackthebox/blob/master/scripts/files/Pivoting.jpg"/> <br />
+Image by <a href="https://github.com/cyberwr3nch">cyberwr3nch</a></p>
 
 
 **Syntax:**
