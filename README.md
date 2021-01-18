@@ -1,6 +1,12 @@
 # hackthebox 
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) 
+![GitHub repo size](https://img.shields.io/github/repo-size/cyberwr3nch/hackthebox) <br />
+
+![GitHub Repo stars](https://img.shields.io/github/stars/cyberwr3nch/hackthebox?style=social)
+![GitHub forks](https://img.shields.io/github/forks/cyberwr3nch/hackthebox?style=social)
+![GitHub watchers](https://img.shields.io/github/watchers/cyberwr3nch/hackthebox?style=social)
+
 
 Notes Taken for HTB Machine<br />
 Will be periodiclly updated, created with the intend of unwraping all possible ways and to prep for exams<br />
