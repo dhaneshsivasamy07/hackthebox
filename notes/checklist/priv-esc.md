@@ -2,7 +2,7 @@
 - [ ] look for <br />
         1. Files with unwanted permissions <br />
         2. Files with SETUID binaries ```find / -perm -4000``` <br />
-        3. Look for Cron Jobs <br />
+        3. Look for Cron Jobs `cat /etc/crontab or crontab -l `<br />
 - [ ] always look for the users in the ```/home``` dirs, the passwords that found during the enumeartion phase will be the same password for the user as well
 - [ ] ```sudo -l``` should be checked must
 - [ ] Make a note of all password yoiu come accross the way to the shell and try ```su - <user>``` and try each passwords
