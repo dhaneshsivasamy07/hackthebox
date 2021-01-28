@@ -10,6 +10,7 @@
 - [ ] After gaining the shell look for `network activity` of the machine
 - [ ] While running the enumeration scripts, look for the network activities
 - [ ] When Binaries execute, `strace <binary>` strace it and look for the things it executes `exec`
+- [ ] Check for sudo versions and exploits `sudo --version`
 
 
 #### Windows
