@@ -39,3 +39,7 @@
 		sudo apt-get install python3-pip
 	```
 - Bypass php [disabled_functions](https://packetstormsecurity.com/files/154728/PHP-7.3-disable_functions-Bypass.html) from PHP verison 7.x - 7.3
+
+### Sudo Vulnerabilities
+
+- [CVE-2021-3156](https://blog.qualys.com/vulnerabilities-research/2021/01/26/cve-2021-3156-heap-based-buffer-overflow-in-sudo-baron-samedit) Baron Samedit Vulnerability.
