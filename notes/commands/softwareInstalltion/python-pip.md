@@ -7,7 +7,7 @@
 
 ```bash
 # python 2.X should be installed
-curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py; python get-pip.py
+curl https://bootstrap.pypa.io/2.7/get-pip.py -o get-pip.py; python get-pip.py
 ```
 
 ### Pip3 installation:
