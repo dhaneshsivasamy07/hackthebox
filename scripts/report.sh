@@ -1,5 +1,28 @@
 #!/bin/bash
 
+################################################################################################
+# start the markdown with a frontmatter
+# ---                                                                                                                                                                
+# title: "Attacktive Directory [TryHackMe]"                                                                                                                          
+# author: cyberwr3nch                                                                                                                                                
+# date: "2021-02-21"                                                                                                                                                 
+# subject: "Active Directory Basics"                                                                                                                                 
+# keywords: [ad, enum4linux, domain, domain controller, internal PT]                                                                                                 
+# subtitle: "Basics of Active Directory Exploitation"                                                                                                                
+# lang: "en"                                                                                                                                                         
+# titlepage: true                                                                                                                                                    
+# titlepage-color: "1E90FF"                                                                                                                                          
+# titlepage-text-color: "000000"                                                                                                                                     
+# titlepage-rule-color: "FFFFFF"                                                                                                                                     
+# titlepage-rule-height: 1                                                                                                                                           
+# book: true                                                                                                                                                         
+# classoption: oneside                                                                                                                                               
+# code-block-font-size: \scriptsize                                                                                                                                  
+#---   
+################################################################################################
+
+
+
 # variables
 RED='\033[0;31m'
 NC='\033[0m'
