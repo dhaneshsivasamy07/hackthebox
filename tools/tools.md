@@ -24,3 +24,5 @@
 | windows-binaries | Windows Binaries from kali-linux gitlab | [kali linux](https://gitlab.com/kalilinux/packages/windows-binaries/-/tree/kali/master/) |
 | PEASS | Post Exploit Enumeration script for windows/Linux | [carlospolop](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) |
 | zerologonPOC | POC for the AD vulnerability `CVE-2020-1472` | [risksense](https://github.com/risksense/zerologon) | 
+| Username-Anarchy | Create a possible username combos with permutation | [urbanadventurer](https://github.com/urbanadventurer/username-anarchy) |
+
