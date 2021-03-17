@@ -64,4 +64,17 @@ proxychains nmap -p22,80,8080,21,443,445 -sT internal_machinesIP
 proxychains firefox internal_machinesIP:80
 ```
 
+### Live Example
+- Machines used, bucket and Jewel from [htb](https://hackthebox.eu)
+
+<p align="center">
+<img src="https://github.com/cyberwr3nch/hackthebox/blob/master/scripts/files/pivoting-log.jpg"/> <br />
+Image by <a href="https://github.com/cyberwr3nch">cyberwr3nch</a></p>
+
+- Summary of the pivot
+
+<p align="center">
+<img src="https://github.com/cyberwr3nch/hackthebox/blob/master/scripts/files/pivot-summary.jpg"/> <br />
+Image by <a href="https://github.com/cyberwr3nch">cyberwr3nch</a></p>
+
 <h5>Thanks <a href="https://github.com/adithyan-ak">@adithyan-ak</a> for binding me in</h5>
