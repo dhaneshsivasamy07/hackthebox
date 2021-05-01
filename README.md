@@ -50,6 +50,7 @@ created & maintained by: **cyberwr3nch**
 | [CredDump](https://github.com/moyix/creddump) | Used to obtain Cached Credentials, LSA Secrets and Password hash when system and sam files are available | `./pwdump.py <system hive> <sam hive>` = Obtain Password Credentials <br /> `./cachedump.py <system hive> <sam hive>` = obtain cached credentials <br /> `./lsadum.py <system hive> <sam hive>` = Obtain LSA Dumps |
 | [PwdDump](https://github.com/moyix/creddump) | After getting the `administrative` access, running this will get the password hashes | `.\PwDump7.exe`|
 | [ApacheDirectoryStudio](https://directory.apache.org/studio/downloads.html) | LDAP browser which is used to analyze LDAP instance running on linux (CREDS required), here transferring the LDAP running on a victim machine and accessing it in the attacker machine | `sudo ssh -L 389:172.20.0.10:389 lynik-admin@10.10.10.189` |
+| [Windsearch](https://github.com/ropnop/go-windapsearch) | Enumerates anything as a authenticated user on the network with modules | `windsearch -d spookysec.local -u 'svc-admin' -p 'management2005' -m computers` |
 
 
 #### Port Forwarding
