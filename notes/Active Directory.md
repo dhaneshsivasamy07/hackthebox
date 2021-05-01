@@ -1,3 +1,13 @@
+## Active Directory 
+### Machine workflow
+- Enumerate Ports and Shares
+- Identify valid users
+- Obtain users has who have kerberos pre auth set (with GETNPUSERS)
+- Crack the hash to obtain the password
+- Recon from RPCCLINET with the password
+- Enumerate SMBShares
+- Remote login if hash is obtained
+
 ### SMB Bruteforce
 
 - Crackmapexec

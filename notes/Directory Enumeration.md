@@ -3,6 +3,7 @@
 - Gobuster
 - Wfuzz
 - rustbuster
+- ffuf
 
 #### Gobuster
 ```bash
@@ -23,6 +24,12 @@ add `-p <proxy address>` in the dir mode and vhost mode
 ```bash
 # hide status codes with 404 and add extensions php and txt
 rustbuster dir -u http://10.10.*.*/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -S 404 -e php,txt -o rustbuster-medium.txt
+```
+
+#### ffuf
+```bash
+# adjust the negative size with trail method, output in colored format and print full url
+ffuf -u http://10.10.*.*/FUZZ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt -e php,html -c -v -fs {size of success page which can be obtained by trail and error}
 ```
 
 ### VHost enumeration
@@ -46,4 +53,8 @@ add `-p <proxy address>` in the dir mode and vhost mode
 ```bash
 # -u specifies the url, -w wordlists, -d resolving name, -x ignore this string
 rustbuster vhost -u http://10.10.*.*/ -w custom.txt -d <hostname>.htb -x 'redirect'
+```
+#### ffuf
+```bash
+ffuf -w /opt/SecLists/Discovery/DNS/subdomains-top1million-5000.txt -u http://10.10.*.* -H "Host: FUZZ.<hostname>.htb"
 ```
