@@ -1,5 +1,6 @@
 ## Active Directory 
 ### Machine workflow
+- [Tools](#too)
 - [Enumerate Ports and Shares](#enum)
 - [Identify valid users](#user)
 - [Obtain users has who have kerberos pre auth set](#gnp)
@@ -7,6 +8,14 @@
 - [Repeat Recon](#rrpc)
 - [Enumerate other users in the network](#enumu)
 - [Remote login if hash is obtained](#pwn)
+
+### Required Tools <a name='too'></a>
+- [Impackets](https://github.com/SecureAuthCorp/impacket)
+- [CrackMapExec](https://github.com/byt3bl33d3r/CrackMapExec)
+- [Kerbrute](https://github.com/ropnop/kerbrute)
+- [Windsearch](https://github.com/ropnop/go-windapsearch)
+- [EvilWinRM](https://github.com/Hackplayers/evil-winrm)
+- [BloodHound.py](https://github.com/fox-it/BloodHound.py)
 
 ### Enumeration Ports <a name="enum"></a>
 ```bash
@@ -204,6 +213,8 @@ copy \\<linux-ip>\<share-name>\<file.ext> .
 
 ```
 
-https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a
-https://cheatsheet.haax.fr/windows-systems/exploitation/impacket/
-https://cheatsheet.haax.fr/windows-systems/exploitation/kerberos/
+##### Useful Links
+- https://gist.github.com/TarlogicSecurity/2f221924fef8c14a1d8e29f3cb5c5c4a
+- https://cheatsheet.haax.fr/windows-systems/exploitation/impacket/
+- https://cheatsheet.haax.fr/windows-systems/exploitation/kerberos/
+- https://github.com/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet
