@@ -17,6 +17,7 @@ created & maintained by: **cyberwr3nch**
 # Contents
 - [Command Reference](https://github.com/cyberwr3nch/hackthebox/tree/master/notes)
 - [Tools](https://github.com/cyberwr3nch/hackthebox/tree/master/tools)
+- [Writeups](https://github.com/cyberwr3nch/writeups/tree/main/htb)
 
 #### SAY NO TO MSF !
 
