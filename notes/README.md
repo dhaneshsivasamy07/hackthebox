@@ -3,7 +3,7 @@
 | File | Contents |
 | ---- | -------- |
 | [Active Directory](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/Active%20Directory.md) | Bruteforce SMB, Winrm Bruteforce, AD User Enumeration, Mounting Disks, BloodHound, rpcclinet |
-| [Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/Directory%20EnumerationCommands.md) | port enum, ports, web enum, Login Bruteforce, sqlinj, File transfer|
+| [Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/Commands.md) | port enum, ports, web enum, Login Bruteforce, sqlinj, File transfer|
 | [Docker Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/Docker%20Commands.md) | installation, building, pulling, updating, deleting, listing, cheatsheet, run with ports open |
 | [Git Commands](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/Git%20Commands.md) | clone, commit, push, pull, add, log, deleted file, checkout | 
 | [Password Cracking](https://github.com/cyberwr3nch/hackthebox/blob/master/notes/Password%20Cracking.md) | hashcat, john, hashexamples, zip file cracking |
