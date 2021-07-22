@@ -51,3 +51,5 @@
 | [ZerologonPOC](https://github.com/risksense/zerologon) | CVE-2020-1472 Exploit, sets the domain admin password as empty pass and dump the secrets. _PS: Latest Version of Impackets is required_ | `python3 set_empty_pw.py machinename/domainname machine IP; secretsdump.py -just-dc -no-pass machinename\$@machineip`|
 | [Gopherus](https://github.com/tarunkant/Gopherus) | SSRF with `gopher://` protocol | `gophreus --exploit phpmemcache` |
 | [pse](https://github.com/ssstonebraker/Pentest-Service-Enumeration) | Quick notes from the terminal | | 
+| [Shellerator](https://github.com/ShutdownRepo/shellerator) | Quick reverse shell commands generator | |
+| [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation) | Cool Bash interpreter | |
