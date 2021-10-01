@@ -51,6 +51,9 @@ awk '{print $1}' # output damnedsec
 # contents of the file-> user: cyberwr3nch: damnedsec;123
 awk -F: '{print $3}' users.txt # output damnedsec;123
 
+# obatain the first occurance with awk
+awk -F ':' "/1/ {print $1}"
+
 # contents of users.txt -> user:[BLACKFIELD764430] rid:[0x451], 
 awk -F"[][]" '{print $2}' users.txt # output: BLACKFIELD764430
 
@@ -104,6 +107,9 @@ cat usernames.txt | sed s/,$//
 
 # add \x after every two characters, the .. denotes the two characters, \x&, adds \x and & doesnt delete the characters that were before
 cat hexpayload.txt | sed 's/../\\x&/g'
+
+# replace something in a file, replace the last occurance of , in the intel_update.log file
+sed -i 'sed -i 's/,$/\]/' intel_update.log
 ```
 
 #### tr
