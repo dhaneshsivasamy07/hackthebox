@@ -108,8 +108,12 @@ cat usernames.txt | sed s/,$//
 # add \x after every two characters, the .. denotes the two characters, \x&, adds \x and & doesnt delete the characters that were before
 cat hexpayload.txt | sed 's/../\\x&/g'
 
-# replace something in a file, replace the last occurance of , in the intel_update.log file
+# replace something in a file, replace the last occurance of , in the intel_update.log file ( in each line)
 sed -i 's/,$/\]/' intel_update.log
+
+# replace only the last occurance of , at the end of the line in the end of the file ( make changes only in the last line)
+# the $ before s/,$/\]/ metions the last line of the file
+sed -i '$ s/,$/\]/' intel_update.log
 
 # delete empty lines in a file
 cat test.txt | sed -r '/^\s*$/d'
