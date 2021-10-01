@@ -109,10 +109,13 @@ cat usernames.txt | sed s/,$//
 cat hexpayload.txt | sed 's/../\\x&/g'
 
 # replace something in a file, replace the last occurance of , in the intel_update.log file
-sed -i 'sed -i 's/,$/\]/' intel_update.log
+sed -i 's/,$/\]/' intel_update.log
 
 # delete empty lines in a file
-sed -r '/^\s*$/d'
+cat test.txt | sed -r '/^\s*$/d'
+
+# use -i when a modification needs to be done on the file
+# use -r when the modification has to be done on the output alone
 ```
 
 #### tr
