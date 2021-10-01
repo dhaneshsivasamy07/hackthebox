@@ -110,6 +110,9 @@ cat hexpayload.txt | sed 's/../\\x&/g'
 
 # replace something in a file, replace the last occurance of , in the intel_update.log file
 sed -i 'sed -i 's/,$/\]/' intel_update.log
+
+# delete empty lines in a file
+sed -r '/^\s*$/d'
 ```
 
 #### tr
