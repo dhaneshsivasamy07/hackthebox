@@ -81,3 +81,8 @@ git push -u origin master --force
 ```bash
 git log --diff-filter=D --summary
 ```
+
+- Know the origin / url of a repository
+```bash
+git config --get remote.origin.url
+```
