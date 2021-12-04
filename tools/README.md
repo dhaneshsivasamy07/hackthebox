@@ -53,3 +53,5 @@
 | [pse](https://github.com/ssstonebraker/Pentest-Service-Enumeration) | Quick notes from the terminal | | 
 | [Shellerator](https://github.com/ShutdownRepo/shellerator) | Quick reverse shell commands generator | |
 | [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation) | Cool Bash interpreter | |
+| [bat](https://github.com/sharkdp/bat) | Colored man pages and cat |  |
+| [colorls](https://github.com/athityakumar/colorls) | decorated ls |  |
