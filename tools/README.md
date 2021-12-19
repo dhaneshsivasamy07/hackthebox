@@ -55,3 +55,4 @@
 | [Starship](https://starship.rs/guide/#%F0%9F%9A%80-installation) | Cool Bash interpreter | |
 | [bat](https://github.com/sharkdp/bat) | Colored man pages and cat |  |
 | [colorls](https://github.com/athityakumar/colorls) | decorated ls |  |
+| [exa](https://github.com/ogham/exa) | colored ls (JH Uses... I guess...) | |
