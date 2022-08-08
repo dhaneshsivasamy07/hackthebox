@@ -18,7 +18,10 @@
 # book: true                                                                                                                                                         
 # classoption: oneside                                                                                                                                               
 # code-block-font-size: \scriptsize                                                                                                                                  
-#---   
+# ---   
+## Vim Shortcuts to include the formatter
+## Remove the start with #<space> --> :%s/^#\s//g 
+## Remove the unwanted whitespace characters --> :%s/\s//g 
 ################################################################################################
 
 
